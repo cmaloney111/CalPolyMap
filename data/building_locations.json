@@ -1,0 +1,6122 @@
+[
+  {
+    "name": "At Bites",
+    "lon": -120.66947665000001,
+    "lat": 35.29545459967307
+  },
+  {
+    "name": "Orfalea College Of Business Building",
+    "lon": -120.66501660659242,
+    "lat": 35.29997639967343
+  },
+  {
+    "name": "SLO City Fire Station #2",
+    "lon": -120.6711931085006,
+    "lat": 35.294827349673035
+  },
+  {
+    "name": "Milestone Tavern",
+    "lon": -120.66894459759301,
+    "lat": 35.29443369967299
+  },
+  {
+    "name": "Club 24",
+    "lon": -120.67024496392084,
+    "lat": 35.294515699673
+  },
+  {
+    "name": "Summit SLO",
+    "lon": -120.67177384267492,
+    "lat": 35.29462454967302
+  },
+  {
+    "name": "Engineering",
+    "lon": -120.66545805034558,
+    "lat": 35.301575049673545
+  },
+  {
+    "name": "Rite Aid",
+    "lon": -120.66905964111211,
+    "lat": 35.294821899673025
+  },
+  {
+    "name": "Cork and Bottle Liquor",
+    "lon": -120.6724139748855,
+    "lat": 35.29456144967301
+  },
+  {
+    "name": "Chevron",
+    "lon": -120.66857775530067,
+    "lat": 35.29440549967299
+  },
+  {
+    "name": "Stenner Glen Cafeteria",
+    "lon": -120.66746022711932,
+    "lat": 35.29599664967313
+  },
+  {
+    "name": "Jespersen Hall",
+    "lon": -120.66446295314584,
+    "lat": 35.29775944967325
+  },
+  {
+    "name": "LDS Institute of Religion",
+    "lon": -120.66640504999998,
+    "lat": 35.29798069967327
+  },
+  {
+    "name": "CAL FIRE/San Luis Obispo County Fire Department Headquarters",
+    "lon": -120.67681932118418,
+    "lat": 35.30176309967357
+  },
+  {
+    "name": "Cal Poly Athletic Ticket Office (61)",
+    "lon": -120.66455414984918,
+    "lat": 35.29854279967333
+  },
+  {
+    "name": "Reinhold Aerospace",
+    "lon": -120.66601796030095,
+    "lat": 35.3021149496736
+  },
+  {
+    "name": "Architecture and Environmental Design",
+    "lon": -120.66434423521972,
+    "lat": 35.300781449673494
+  },
+  {
+    "name": "Cotchett Education Building",
+    "lon": -120.6644420091421,
+    "lat": 35.300213999673446
+  },
+  {
+    "name": "61E- Spanos Stadium Concession",
+    "lon": -120.66546261615775,
+    "lat": 35.29899529967335
+  },
+  {
+    "name": "Administration",
+    "lon": -120.67573224401409,
+    "lat": 35.296352199673144
+  },
+  {
+    "name": "Computer Lab",
+    "lon": -120.6748013,
+    "lat": 35.29625504967315
+  },
+  {
+    "name": "Library",
+    "lon": -120.67465682487006,
+    "lat": 35.29625424967315
+  },
+  {
+    "name": "Multipurpose Room",
+    "lon": -120.67571806088861,
+    "lat": 35.29604844967312
+  },
+  {
+    "name": "Music Room",
+    "lon": -120.67551789325856,
+    "lat": 35.296077049673116
+  },
+  {
+    "name": "61D- Spanos Stadium West Bleachers",
+    "lon": -120.6654906067723,
+    "lat": 35.298336849673305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67386975,
+    "lat": 35.29714744967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67370984562169,
+    "lat": 35.29690659967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6737364,
+    "lat": 35.29661299967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67386058518518,
+    "lat": 35.29621309967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67378956535512,
+    "lat": 35.2958266996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6766270371907,
+    "lat": 35.29911359967336
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6778481530622,
+    "lat": 35.296245699673136
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67608293577348,
+    "lat": 35.29510749967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67411942726422,
+    "lat": 35.29500389967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67654439999998,
+    "lat": 35.29451244967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67700396715337,
+    "lat": 35.29488449967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67691991489616,
+    "lat": 35.294311199672975
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67743155569414,
+    "lat": 35.29466594967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67780026756066,
+    "lat": 35.29484894967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67749331911776,
+    "lat": 35.294532099673006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6778102451233,
+    "lat": 35.294655099673015
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67778021927785,
+    "lat": 35.294364899672985
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67748162525244,
+    "lat": 35.294352649672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67741575666666,
+    "lat": 35.295638899673094
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67784510278221,
+    "lat": 35.29565384967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6775035151517,
+    "lat": 35.295551449673084
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6778778,
+    "lat": 35.29544644967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67780752476453,
+    "lat": 35.29503839967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67740034414363,
+    "lat": 35.295969349673115
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67783686727888,
+    "lat": 35.2957888996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6774082,
+    "lat": 35.29610334967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67784685,
+    "lat": 35.29611294967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67735709920197,
+    "lat": 35.2957747496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67499762457075,
+    "lat": 35.29458589967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67421484057377,
+    "lat": 35.29467469967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67501357404075,
+    "lat": 35.29470194967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67522797500972,
+    "lat": 35.294627949673014
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67414486782462,
+    "lat": 35.294353499672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67592007068225,
+    "lat": 35.29435409967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67540225223254,
+    "lat": 35.295200049673056
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67468105,
+    "lat": 35.295050549673036
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67520544999999,
+    "lat": 35.29505659967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67435151848177,
+    "lat": 35.29511849967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6766662004183,
+    "lat": 35.29840084967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67650745994577,
+    "lat": 35.29795879967327
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67482084084796,
+    "lat": 35.29753044967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67614416256305,
+    "lat": 35.29762364967325
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67693355720073,
+    "lat": 35.29775374967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67734429999999,
+    "lat": 35.29776749967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67794576361459,
+    "lat": 35.29774029967325
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67738573841197,
+    "lat": 35.29658229967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67752762426366,
+    "lat": 35.29664239967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67785037196202,
+    "lat": 35.29660489967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67775814349633,
+    "lat": 35.29696214967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67695095149942,
+    "lat": 35.2969274996732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67780465675779,
+    "lat": 35.296773399673185
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67700857856191,
+    "lat": 35.296765449673174
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67736828650361,
+    "lat": 35.296782349673194
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67700195240522,
+    "lat": 35.296593499673165
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67776345869065,
+    "lat": 35.297600949673246
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67737041249227,
+    "lat": 35.29745529967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67694437495561,
+    "lat": 35.297591049673244
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67776708358116,
+    "lat": 35.29722174967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67797867201364,
+    "lat": 35.29845979967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67707890000003,
+    "lat": 35.29845644967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67772563513908,
+    "lat": 35.29847649967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67798883029613,
+    "lat": 35.297965499673275
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67737379408378,
+    "lat": 35.297977499673266
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67689070610659,
+    "lat": 35.29797049967328
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67757741886506,
+    "lat": 35.29801789967328
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67779169907976,
+    "lat": 35.29798099967327
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67720734291727,
+    "lat": 35.29881919967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67630154609256,
+    "lat": 35.29733104967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67401963763139,
+    "lat": 35.29734604967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67511854809254,
+    "lat": 35.29756914967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67542950064875,
+    "lat": 35.29755179967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67542208625366,
+    "lat": 35.29728104967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67574508872433,
+    "lat": 35.297266949673215
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67614784920937,
+    "lat": 35.296711699673175
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67645804778482,
+    "lat": 35.29653129967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67407485768737,
+    "lat": 35.297008299673195
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67631844969492,
+    "lat": 35.29687149967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6740100842018,
+    "lat": 35.29681599967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67635128813453,
+    "lat": 35.29653714967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67603631139042,
+    "lat": 35.29839014967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67644617250527,
+    "lat": 35.2983822996733
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67625279975913,
+    "lat": 35.29840694967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67606276042982,
+    "lat": 35.29799584967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67630827072901,
+    "lat": 35.29801769967328
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.675398476113,
+    "lat": 35.29786604967327
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67658633887172,
+    "lat": 35.3008340496735
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67640639999999,
+    "lat": 35.300610149673474
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67651234999998,
+    "lat": 35.30032714967345
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6779523215432,
+    "lat": 35.30049714967346
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67616435004757,
+    "lat": 35.300414199673455
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67714746709964,
+    "lat": 35.300478549673464
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67660652981829,
+    "lat": 35.299772149673416
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6766827622819,
+    "lat": 35.299295299673375
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67794208672575,
+    "lat": 35.300178649673455
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67797472661346,
+    "lat": 35.30031814967346
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6780229382085,
+    "lat": 35.299421999673385
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6772049398867,
+    "lat": 35.29984149967342
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67763743025056,
+    "lat": 35.299740499673405
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67712560985208,
+    "lat": 35.29970079967342
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6779138455806,
+    "lat": 35.29928074967337
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67702446249083,
+    "lat": 35.2995821496734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67742885263903,
+    "lat": 35.2994631996734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67687414726527,
+    "lat": 35.29941879967339
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67753709388634,
+    "lat": 35.2996014496734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67694170476796,
+    "lat": 35.29914899967336
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67702415701434,
+    "lat": 35.30027119967346
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67766199155443,
+    "lat": 35.30025589967345
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67776160412399,
+    "lat": 35.299884649673416
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67789188940343,
+    "lat": 35.30001699967343
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67744102803698,
+    "lat": 35.30006644967344
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67686889914305,
+    "lat": 35.30005154967344
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67744011831209,
+    "lat": 35.30134114967353
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67680316038438,
+    "lat": 35.30140014967354
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67700746322302,
+    "lat": 35.30131034967353
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67797356959542,
+    "lat": 35.300835999673495
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67760711799522,
+    "lat": 35.3008298996735
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67760929682481,
+    "lat": 35.300978999673504
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67698029920622,
+    "lat": 35.300958799673516
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6771685753437,
+    "lat": 35.3009515496735
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67761926481222,
+    "lat": 35.30059779967348
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67794292812093,
+    "lat": 35.30059424967348
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67630305556108,
+    "lat": 35.300139699673444
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67613395711433,
+    "lat": 35.299502399673386
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67613453093654,
+    "lat": 35.2996741496734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67607579854284,
+    "lat": 35.29915224967337
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67609906612921,
+    "lat": 35.29931319967338
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67650565,
+    "lat": 35.30138574967354
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67634542710132,
+    "lat": 35.30087654967349
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67107387104544,
+    "lat": 35.29632099967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67136573261203,
+    "lat": 35.29636884967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66635822550231,
+    "lat": 35.296554499673164
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.668264606208,
+    "lat": 35.296332449673145
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6661286232961,
+    "lat": 35.29633069967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66867342658546,
+    "lat": 35.29625104967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67191148907575,
+    "lat": 35.29627449967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67210885954279,
+    "lat": 35.296310199673144
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67083272916304,
+    "lat": 35.29627169967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66597303496985,
+    "lat": 35.296228449673144
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6666625101285,
+    "lat": 35.296305299673136
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67109235673075,
+    "lat": 35.2956674996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67092537409803,
+    "lat": 35.29515584967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67111307825658,
+    "lat": 35.29538914967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6730740574861,
+    "lat": 35.294958699673046
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67111359999998,
+    "lat": 35.295124549673055
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67131315073345,
+    "lat": 35.29501289967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67266454971241,
+    "lat": 35.294918899673036
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6727950246218,
+    "lat": 35.29457274967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67281285000001,
+    "lat": 35.29471774967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67303890009669,
+    "lat": 35.294669349673015
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67276705055625,
+    "lat": 35.29436574967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67358809999999,
+    "lat": 35.29436819967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6737236359651,
+    "lat": 35.294387099672996
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67287653476669,
+    "lat": 35.294428649673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67318947490651,
+    "lat": 35.29430809967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67332997273056,
+    "lat": 35.294407349672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67183434336056,
+    "lat": 35.295607499673096
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67136204002935,
+    "lat": 35.2957131996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67314813087364,
+    "lat": 35.295230949673055
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67371390740774,
+    "lat": 35.295372299673076
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.673384,
+    "lat": 35.29511974967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67360893335191,
+    "lat": 35.296041299673135
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67159637513262,
+    "lat": 35.29532944967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6712739,
+    "lat": 35.29514674967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67146964504641,
+    "lat": 35.29504839967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6716601275309,
+    "lat": 35.29605929967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67152054482216,
+    "lat": 35.295863099673106
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67191955,
+    "lat": 35.296082599673134
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67176091871761,
+    "lat": 35.296139449673134
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67230164506883,
+    "lat": 35.29621119967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67128929999998,
+    "lat": 35.295893249673114
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67192259999999,
+    "lat": 35.295805899673105
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66876635,
+    "lat": 35.294432399673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6706003320325,
+    "lat": 35.29595964967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66866830102701,
+    "lat": 35.29591184967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66920294857397,
+    "lat": 35.296142949673126
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67067725057808,
+    "lat": 35.296060599673126
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66991730000001,
+    "lat": 35.2957005496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67000477954845,
+    "lat": 35.29561524967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67040366374064,
+    "lat": 35.295643449673086
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6702726,
+    "lat": 35.2958118496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67088201344959,
+    "lat": 35.29539399967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67029185091874,
+    "lat": 35.29541294967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67093448222639,
+    "lat": 35.29548029967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67333274274193,
+    "lat": 35.297704349673246
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6721478821695,
+    "lat": 35.29696144967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67356049675516,
+    "lat": 35.29707049967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67346115000001,
+    "lat": 35.296943649673196
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67272549021442,
+    "lat": 35.29670519967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67338898917392,
+    "lat": 35.29670769967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67281624393848,
+    "lat": 35.29689194967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67373814999999,
+    "lat": 35.296365549673155
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67323474592592,
+    "lat": 35.29664629967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67341838863754,
+    "lat": 35.29657089967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67364569865897,
+    "lat": 35.29651794967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67316579064004,
+    "lat": 35.29746674967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67300995,
+    "lat": 35.297103399673205
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67283771251807,
+    "lat": 35.29730269967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6718236593273,
+    "lat": 35.29668239967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67202633650398,
+    "lat": 35.29686019967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67134984999998,
+    "lat": 35.29647169967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67225624140436,
+    "lat": 35.296410549673155
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67157819728507,
+    "lat": 35.296591049673175
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67163189087229,
+    "lat": 35.296498399673155
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66926829528222,
+    "lat": 35.29683149967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6686473,
+    "lat": 35.296902199673184
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6692737472159,
+    "lat": 35.296499849673154
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66865409872696,
+    "lat": 35.29657259967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66785426409031,
+    "lat": 35.29485299967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66553713127165,
+    "lat": 35.295063749673055
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66560860000001,
+    "lat": 35.29473249967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66721726869598,
+    "lat": 35.29426274967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66738557823413,
+    "lat": 35.29456339967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66637877006477,
+    "lat": 35.2957446496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6682804499977,
+    "lat": 35.295791799673104
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66803435075659,
+    "lat": 35.2957629496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66621494271567,
+    "lat": 35.29539094967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66622505175388,
+    "lat": 35.29552614967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66641919999999,
+    "lat": 35.29553654967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66624675216832,
+    "lat": 35.29513539967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66608674700004,
+    "lat": 35.29522574967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66595026338719,
+    "lat": 35.29532664967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66572309537224,
+    "lat": 35.29604114967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66593139999998,
+    "lat": 35.29592134967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66667215000001,
+    "lat": 35.29586374967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66470110000003,
+    "lat": 35.294353199673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66490671509727,
+    "lat": 35.29409534967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66516233885068,
+    "lat": 35.29422384967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66439322319886,
+    "lat": 35.29420849967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6653738,
+    "lat": 35.294091449672976
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66510000042214,
+    "lat": 35.29409274967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66449528090092,
+    "lat": 35.29400474967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66504642322337,
+    "lat": 35.293981749672966
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66537541578757,
+    "lat": 35.29396939967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66534688747598,
+    "lat": 35.29576529967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66533331547079,
+    "lat": 35.29552639967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66510828420611,
+    "lat": 35.29562999967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66470302864806,
+    "lat": 35.29508979967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66503094753332,
+    "lat": 35.29538864967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66662108163811,
+    "lat": 35.29749684967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66683793592682,
+    "lat": 35.297259299673215
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6670765567871,
+    "lat": 35.29748484967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66823976834146,
+    "lat": 35.296773549673176
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66641270168036,
+    "lat": 35.297053599673205
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.667490200578,
+    "lat": 35.296941899673186
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66673075703272,
+    "lat": 35.2970023996732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6678690058032,
+    "lat": 35.296320249673144
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66671443775695,
+    "lat": 35.29669759967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6661649622954,
+    "lat": 35.296614099673164
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66674905578043,
+    "lat": 35.296492699673166
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6668965345423,
+    "lat": 35.2984670996733
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66705422469909,
+    "lat": 35.30009824967345
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67436707424528,
+    "lat": 35.29427974967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67455100000001,
+    "lat": 35.29427994967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6753844068726,
+    "lat": 35.29477764967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67340481634317,
+    "lat": 35.29628254967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67769494999999,
+    "lat": 35.295996949673125
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67759649999999,
+    "lat": 35.29595814967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67758624999999,
+    "lat": 35.29589074967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67758409921574,
+    "lat": 35.29605564967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67187349467136,
+    "lat": 35.29685184967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.677449,
+    "lat": 35.29626859967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67625487565972,
+    "lat": 35.29675524967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67609288988126,
+    "lat": 35.29689004967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67631599575893,
+    "lat": 35.29756804967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67631879919624,
+    "lat": 35.29769314967325
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67770581494386,
+    "lat": 35.295080399673054
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67770685097452,
+    "lat": 35.29468669967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67454919993773,
+    "lat": 35.294382599673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67436850047037,
+    "lat": 35.294474899673006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67436994951055,
+    "lat": 35.294378099673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67454770051623,
+    "lat": 35.294610199673016
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67454655017985,
+    "lat": 35.29470524967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67454794975612,
+    "lat": 35.29451524967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67436815056998,
+    "lat": 35.29459739967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67734753786587,
+    "lat": 35.29846424967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67697295786398,
+    "lat": 35.297427449673236
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67740085766953,
+    "lat": 35.29721479967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67662395540665,
+    "lat": 35.29689719967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67661090617187,
+    "lat": 35.29729409967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67690179337593,
+    "lat": 35.29723794967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67754007168782,
+    "lat": 35.296736999673186
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67737572853106,
+    "lat": 35.29645209967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6776736043069,
+    "lat": 35.29648849967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67782635413343,
+    "lat": 35.296431849673155
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67755745,
+    "lat": 35.29683559967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6774679,
+    "lat": 35.29672954967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67742348740416,
+    "lat": 35.2969200496732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67635665201195,
+    "lat": 35.29979024967341
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67762782729653,
+    "lat": 35.30049414967347
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67742948988388,
+    "lat": 35.29997039967343
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67611334832597,
+    "lat": 35.29877229967333
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6760983362619,
+    "lat": 35.29900889967335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67656338514468,
+    "lat": 35.29872604967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67636284013781,
+    "lat": 35.298740299673334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67697030936384,
+    "lat": 35.29875724967333
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67676795,
+    "lat": 35.29875879967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67724901379526,
+    "lat": 35.299134149673364
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67727859266077,
+    "lat": 35.298647999673335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67735735611498,
+    "lat": 35.29760174967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67735216667334,
+    "lat": 35.299321999673374
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67685987697428,
+    "lat": 35.29840144967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67677567507042,
+    "lat": 35.297620399673235
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67445401041314,
+    "lat": 35.29740259967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67453379534065,
+    "lat": 35.297608599673254
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67540199999999,
+    "lat": 35.297415849673236
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6750539720195,
+    "lat": 35.29733594967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67512380282298,
+    "lat": 35.297854849673264
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67452375124144,
+    "lat": 35.297927249673265
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67477554771725,
+    "lat": 35.29791769967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67719935215985,
+    "lat": 35.30069634967349
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67719200430624,
+    "lat": 35.30133084967353
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67662382557143,
+    "lat": 35.30133529967353
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67570269995221,
+    "lat": 35.29751104967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.673937120229,
+    "lat": 35.29668819967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67396852344191,
+    "lat": 35.296462249673155
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6756686499287,
+    "lat": 35.29789309967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67379699523494,
+    "lat": 35.297274199673225
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67266509999999,
+    "lat": 35.29700354967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6774225631417,
+    "lat": 35.295082449673046
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67740894357414,
+    "lat": 35.29488509967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67738577579158,
+    "lat": 35.29518349967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67778529169665,
+    "lat": 35.29591634967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67766891218477,
+    "lat": 35.2957180496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67775533892703,
+    "lat": 35.29449854967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67372060329217,
+    "lat": 35.29569759967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6737799552451,
+    "lat": 35.29609774967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67383495,
+    "lat": 35.295988149673114
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6736024451348,
+    "lat": 35.29632374967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67606995773752,
+    "lat": 35.29626569967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67769074392882,
+    "lat": 35.29582394967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67319133325726,
+    "lat": 35.29602884967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67292017014105,
+    "lat": 35.29617194967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67315261057867,
+    "lat": 35.29594524967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67286774192547,
+    "lat": 35.296102249673126
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67309738450753,
+    "lat": 35.29631559967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67301760000001,
+    "lat": 35.29625329967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67329682988185,
+    "lat": 35.29610569967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67333693230269,
+    "lat": 35.29618824967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67239539653733,
+    "lat": 35.295601299673095
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67277682364323,
+    "lat": 35.29596104967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67300977714558,
+    "lat": 35.29561319967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67255948757345,
+    "lat": 35.29579999967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6727223,
+    "lat": 35.2957024496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6733613931095,
+    "lat": 35.29539039967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67362023007959,
+    "lat": 35.29525649967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6730043011156,
+    "lat": 35.29534234967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67261884999999,
+    "lat": 35.29517164967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67215927891871,
+    "lat": 35.29535679967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67372881215364,
+    "lat": 35.295535249673094
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67325654999999,
+    "lat": 35.29519289967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6730770200637,
+    "lat": 35.294429249673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67363000512478,
+    "lat": 35.29468819967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6732279732586,
+    "lat": 35.29477369967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67308407542804,
+    "lat": 35.294539999673006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67615927405916,
+    "lat": 35.294578199673005
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67639976498495,
+    "lat": 35.29454584967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6762797,
+    "lat": 35.294288599672996
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67615237436647,
+    "lat": 35.294412599672995
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6757006,
+    "lat": 35.294618199673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67570807519627,
+    "lat": 35.29431049967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67698372522489,
+    "lat": 35.294673499673024
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67692468839424,
+    "lat": 35.294462499673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67687837227274,
+    "lat": 35.29526929967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6769977252007,
+    "lat": 35.29507754967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67686112163298,
+    "lat": 35.29501614967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67586093478961,
+    "lat": 35.29521844967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67563574763781,
+    "lat": 35.29524154967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67515144313856,
+    "lat": 35.29521679967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6746845235194,
+    "lat": 35.29493154967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67519301815932,
+    "lat": 35.294913249673044
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67449630299961,
+    "lat": 35.29522679967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67476447433899,
+    "lat": 35.295220899673055
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67406075410081,
+    "lat": 35.29526129967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67429367513083,
+    "lat": 35.29522889967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67495000287471,
+    "lat": 35.29492304967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67412499509089,
+    "lat": 35.295095649673044
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67432340454957,
+    "lat": 35.29498194967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67452628881733,
+    "lat": 35.29495719967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67470685452759,
+    "lat": 35.294448049673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67467637578068,
+    "lat": 35.29469749967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6748611597595,
+    "lat": 35.29471364967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67495125334423,
+    "lat": 35.294337849672985
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67436900000001,
+    "lat": 35.29470789967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67778463725945,
+    "lat": 35.297722049673254
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67779684759684,
+    "lat": 35.29915314967336
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6777665981891,
+    "lat": 35.29898384967335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67777430180216,
+    "lat": 35.29883424967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67779513874981,
+    "lat": 35.29863534967332
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67779059206586,
+    "lat": 35.297409499673236
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67596499999996,
+    "lat": 35.29763829967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67614446502667,
+    "lat": 35.297316549673226
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67598742486035,
+    "lat": 35.297307299673214
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6755159496849,
+    "lat": 35.297449049673226
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67539052478553,
+    "lat": 35.294628649673015
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67538031208124,
+    "lat": 35.29431449967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67525246563173,
+    "lat": 35.29432919967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66655316983434,
+    "lat": 35.298642299673325
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66642810217479,
+    "lat": 35.29883394967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66660844329127,
+    "lat": 35.298753549673336
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66690564999999,
+    "lat": 35.298303449673284
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66644870223325,
+    "lat": 35.29852439967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66957499932998,
+    "lat": 35.297947699673266
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6705451,
+    "lat": 35.29450464967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6701313469215,
+    "lat": 35.29469079967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67084770232535,
+    "lat": 35.294497899673004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67662691350417,
+    "lat": 35.297470799673235
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67659087159522,
+    "lat": 35.29775714967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66561855,
+    "lat": 35.302039699673585
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67576730169793,
+    "lat": 35.29833989967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67544696570172,
+    "lat": 35.29853834967331
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67555690670135,
+    "lat": 35.298276599673294
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67578241329184,
+    "lat": 35.29888654967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67577998430824,
+    "lat": 35.29905739967336
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67547646943402,
+    "lat": 35.29870844967333
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67578348789138,
+    "lat": 35.29871039967333
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6757797041772,
+    "lat": 35.29941569967339
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6757984361017,
+    "lat": 35.29986009967342
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67541994398673,
+    "lat": 35.29901649967336
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67527817941897,
+    "lat": 35.29889004967335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67561751649936,
+    "lat": 35.2996017996734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67546453550557,
+    "lat": 35.29941919967338
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6751540704752,
+    "lat": 35.29875384967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6750353067195,
+    "lat": 35.298613449673326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67513657806333,
+    "lat": 35.29824779967329
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67491928965296,
+    "lat": 35.29828724967329
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67534961597207,
+    "lat": 35.29931424967337
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66617974999998,
+    "lat": 35.30198554967358
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67501724686238,
+    "lat": 35.299000949673356
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67475765460472,
+    "lat": 35.298709949673324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67487964232117,
+    "lat": 35.298863499673345
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67453425040236,
+    "lat": 35.29662819967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67579605,
+    "lat": 35.29502994967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67535855,
+    "lat": 35.29446439967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67592024186702,
+    "lat": 35.29427279967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67395972896816,
+    "lat": 35.29634164967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67309002524163,
+    "lat": 35.29505954967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6710190808393,
+    "lat": 35.29559359967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6735286,
+    "lat": 35.29576529967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6717691,
+    "lat": 35.29588729967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67176100000002,
+    "lat": 35.29574114967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67119974999999,
+    "lat": 35.29550054967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67171250550055,
+    "lat": 35.29594154967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67393440600547,
+    "lat": 35.297492799673236
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.669745,
+    "lat": 35.302055849673586
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6649981693356,
+    "lat": 35.30030789967344
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66675701054481,
+    "lat": 35.2982739996733
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67228332187578,
+    "lat": 35.295114399673054
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6695623002319,
+    "lat": 35.29810389967328
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67135779999998,
+    "lat": 35.29663124967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66774972721507,
+    "lat": 35.29584544967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66770348172273,
+    "lat": 35.29558679967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67354896678404,
+    "lat": 35.29662344967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67220227200187,
+    "lat": 35.29501684967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67101000123411,
+    "lat": 35.29496449967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67280329258962,
+    "lat": 35.29535934967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67252609652897,
+    "lat": 35.29551954967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67266185153204,
+    "lat": 35.295438699673085
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66580768929327,
+    "lat": 35.293695599672944
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66651947239544,
+    "lat": 35.29727394967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66520120000001,
+    "lat": 35.29486114967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66594289999998,
+    "lat": 35.29457664967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67355474652845,
+    "lat": 35.3007801996735
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67355425000002,
+    "lat": 35.300850699673504
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67391635000001,
+    "lat": 35.296918749673196
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66509726749362,
+    "lat": 35.301058099673504
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67549914987796,
+    "lat": 35.29658329967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67757669999999,
+    "lat": 35.29693184967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6749648241539,
+    "lat": 35.29680034967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67511077459886,
+    "lat": 35.29680184967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67523365066246,
+    "lat": 35.29680274967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67535819999999,
+    "lat": 35.29680389967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67549882413608,
+    "lat": 35.29680504967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67562695044319,
+    "lat": 35.29680609967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67575175048347,
+    "lat": 35.29680724967318
+  },
+  {
+    "name": "Robert E. Kennedy Library",
+    "lon": -120.66406530359518,
+    "lat": 35.301863799673576
+  },
+  {
+    "name": "Engineering West (21): Architectural Engineering",
+    "lon": -120.66292860449082,
+    "lat": 35.30030114967346
+  },
+  {
+    "name": "Engineering West (21): City and Regional Planning",
+    "lon": -120.66358172935529,
+    "lat": 35.300153449673445
+  },
+  {
+    "name": "130 Grand Avenue Parking Structure",
+    "lon": -120.6574103264415,
+    "lat": 35.298208099673296
+  },
+  {
+    "name": "Morro Bay",
+    "lon": -120.65459951546038,
+    "lat": 35.29677279967318
+  },
+  {
+    "name": "Cal Poly Observatory (52B)",
+    "lon": -120.65997273353658,
+    "lat": 35.30050169967347
+  },
+  {
+    "name": "Welcome Center & Community Hall",
+    "lon": -120.65596306192431,
+    "lat": 35.29816184967329
+  },
+  {
+    "name": "Old Power House",
+    "lon": -120.66355001143455,
+    "lat": 35.299057699673355
+  },
+  {
+    "name": "Engineering South",
+    "lon": -120.66079317433402,
+    "lat": 35.299477099673396
+  },
+  {
+    "name": "Graphic Arts",
+    "lon": -120.66174334408566,
+    "lat": 35.299301849673384
+  },
+  {
+    "name": "Printing Press",
+    "lon": -120.6612438,
+    "lat": 35.299390699673395
+  },
+  {
+    "name": "Engineering East",
+    "lon": -120.66126952792243,
+    "lat": 35.300236249673446
+  },
+  {
+    "name": "Bert and Candace Forbes Center for Excellence",
+    "lon": -120.66155874999998,
+    "lat": 35.300126549673436
+  },
+  {
+    "name": "Frank E. Pilling Building",
+    "lon": -120.66226265778175,
+    "lat": 35.30015664967344
+  },
+  {
+    "name": "Engineering West Addition",
+    "lon": -120.66353586458933,
+    "lat": 35.29984679967342
+  },
+  {
+    "name": "Walter F. Dexter Building",
+    "lon": -120.6634515161326,
+    "lat": 35.30110379967353
+  },
+  {
+    "name": "Kinesiology",
+    "lon": -120.65982903678906,
+    "lat": 35.29882369967335
+  },
+  {
+    "name": "Orfalea Family and ASI Children's Center",
+    "lon": -120.66278529950355,
+    "lat": 35.29736404967323
+  },
+  {
+    "name": "Chase Hall",
+    "lon": -120.66374488042088,
+    "lat": 35.29792129967328
+  },
+  {
+    "name": "CAD Research Center",
+    "lon": -120.66457789465042,
+    "lat": 35.2970503996732
+  },
+  {
+    "name": "Health and Counseling Services",
+    "lon": -120.66096506946703,
+    "lat": 35.297964899673275
+  },
+  {
+    "name": "H. P. Davidson Music Center",
+    "lon": -120.65799025047559,
+    "lat": 35.29932104967338
+  },
+  {
+    "name": "Robert E. Mott Physical Education",
+    "lon": -120.65880945418931,
+    "lat": 35.29877064967333
+  },
+  {
+    "name": "Sierra Madre Hall: Tower 0",
+    "lon": -120.65512966273857,
+    "lat": 35.299151349673366
+  },
+  {
+    "name": "Sierra Madre Hall: Tower 2",
+    "lon": -120.65467038667168,
+    "lat": 35.29915614967337
+  },
+  {
+    "name": "Jespersen Hall",
+    "lon": -120.66446295314584,
+    "lat": 35.29775944967325
+  },
+  {
+    "name": "Heron Hall",
+    "lon": -120.6643242379321,
+    "lat": 35.297244949673214
+  },
+  {
+    "name": "Student Services",
+    "lon": -120.6640414772317,
+    "lat": 35.2984132496733
+  },
+  {
+    "name": "Smith Alumni Center",
+    "lon": -120.66214597796326,
+    "lat": 35.29760004967324
+  },
+  {
+    "name": "Newman Catholic Center",
+    "lon": -120.66067462801523,
+    "lat": 35.29763894967325
+  },
+  {
+    "name": "Multi-Purpose Room",
+    "lon": -120.65375924859237,
+    "lat": 35.29525944967306
+  },
+  {
+    "name": "Sierra Madre Hall: Tower 3",
+    "lon": -120.65428031330103,
+    "lat": 35.29883339967334
+  },
+  {
+    "name": "Sierra Madre Hall: Tower 5",
+    "lon": -120.65464145691124,
+    "lat": 35.29859834967333
+  },
+  {
+    "name": "Sierra Madre Community Center",
+    "lon": -120.65499605877287,
+    "lat": 35.29876254967334
+  },
+  {
+    "name": "Sierra Madre Hall: Tower 4",
+    "lon": -120.6542798009728,
+    "lat": 35.298500149673316
+  },
+  {
+    "name": "Yosemite Community Center",
+    "lon": -120.65374487413791,
+    "lat": 35.29772804967325
+  },
+  {
+    "name": "Crandall Gymnasium",
+    "lon": -120.66414473230736,
+    "lat": 35.299509899673396
+  },
+  {
+    "name": "Mathematics and Science (38)",
+    "lon": -120.66230292705342,
+    "lat": 35.30176449967357
+  },
+  {
+    "name": "Alan A. Erhart Agriculture (10)",
+    "lon": -120.6614927484865,
+    "lat": 35.30193669967358
+  },
+  {
+    "name": "Trinity Hall",
+    "lon": -120.65715196627688,
+    "lat": 35.301823949673576
+  },
+  {
+    "name": "Sequoia Hall",
+    "lon": -120.65746261903263,
+    "lat": 35.30066864967348
+  },
+  {
+    "name": "Dining Complex",
+    "lon": -120.65965233012821,
+    "lat": 35.29953939967339
+  },
+  {
+    "name": "Alex and Fay Spanos Theatre",
+    "lon": -120.6577865723022,
+    "lat": 35.29976599967342
+  },
+  {
+    "name": "Muir Hall",
+    "lon": -120.65673528877437,
+    "lat": 35.30089774967351
+  },
+  {
+    "name": "Tenaya Hall",
+    "lon": -120.6565080929596,
+    "lat": 35.30000199967343
+  },
+  {
+    "name": "Fremont Hall",
+    "lon": -120.6558234633676,
+    "lat": 35.300278249673454
+  },
+  {
+    "name": "Sierra Madre Hall: Tower 1",
+    "lon": -120.65493180097022,
+    "lat": 35.29942724967339
+  },
+  {
+    "name": "Cal Poly Athletic Ticket Office (61)",
+    "lon": -120.66455414984918,
+    "lat": 35.29854279967333
+  },
+  {
+    "name": "Faculty Offices East",
+    "lon": -120.65924735481605,
+    "lat": 35.30109694967351
+  },
+  {
+    "name": "Yosemite Hall: Tower 7",
+    "lon": -120.65293896178719,
+    "lat": 35.29767699967324
+  },
+  {
+    "name": "Yosemite Hall: Tower 6",
+    "lon": -120.65311960568046,
+    "lat": 35.297815449673266
+  },
+  {
+    "name": "Yosemite Hall: Tower 8",
+    "lon": -120.65310061165124,
+    "lat": 35.29752964967324
+  },
+  {
+    "name": "Yosemite Hall: Tower 9",
+    "lon": -120.65335519644553,
+    "lat": 35.29755819967324
+  },
+  {
+    "name": "Yosemite Hall: Tower 0",
+    "lon": -120.65396179668448,
+    "lat": 35.29797124967328
+  },
+  {
+    "name": "Yosemite Hall: Tower 1",
+    "lon": -120.65390240013141,
+    "lat": 35.29816644967329
+  },
+  {
+    "name": "Yosemite Hall: Tower 3",
+    "lon": -120.65348754283903,
+    "lat": 35.2982877496733
+  },
+  {
+    "name": "Yosemite Hall: Tower 2",
+    "lon": -120.65373444841421,
+    "lat": 35.298317449673306
+  },
+  {
+    "name": "Yosemite Hall: Tower 5",
+    "lon": -120.65336296179589,
+    "lat": 35.29786519967327
+  },
+  {
+    "name": "Yosemite Hall: Tower 4",
+    "lon": -120.65352251805388,
+    "lat": 35.29808669967328
+  },
+  {
+    "name": "Santa Lucia Hall",
+    "lon": -120.65778647763545,
+    "lat": 35.30154519967354
+  },
+  {
+    "name": "Science North",
+    "lon": -120.65985451882368,
+    "lat": 35.30201314967359
+  },
+  {
+    "name": "Science",
+    "lon": -120.65941737264333,
+    "lat": 35.30049094967347
+  },
+  {
+    "name": "Cal Poly University Store",
+    "lon": -120.65923993625591,
+    "lat": 35.30005959967344
+  },
+  {
+    "name": "Administration",
+    "lon": -120.65860828868878,
+    "lat": 35.3009840496735
+  },
+  {
+    "name": "Clyde P. Fisher Science",
+    "lon": -120.65922091221964,
+    "lat": 35.302191649673595
+  },
+  {
+    "name": "Architecture and Environmental Design",
+    "lon": -120.66434423521972,
+    "lat": 35.300781449673494
+  },
+  {
+    "name": "Construction Innovations Center",
+    "lon": -120.66283143179305,
+    "lat": 35.29926914967337
+  },
+  {
+    "name": "Hillcrest",
+    "lon": -120.65814210224393,
+    "lat": 35.30204219967359
+  },
+  {
+    "name": "Housing and Residential Life",
+    "lon": -120.65760120909721,
+    "lat": 35.30200049967359
+  },
+  {
+    "name": "Julian A. McPhee University Union (65)",
+    "lon": -120.65872160473059,
+    "lat": 35.300212399673455
+  },
+  {
+    "name": "Cotchett Education Building",
+    "lon": -120.6644420091421,
+    "lat": 35.300213999673446
+  },
+  {
+    "name": "University House",
+    "lon": -120.66252995469088,
+    "lat": 35.29814764967328
+  },
+  {
+    "name": "MAT'L Demo Laboratory",
+    "lon": -120.66259891522775,
+    "lat": 35.29945594967339
+  },
+  {
+    "name": "Natatorium Faculty Office",
+    "lon": -120.66421519943098,
+    "lat": 35.299120549673376
+  },
+  {
+    "name": "Recreation Center",
+    "lon": -120.66014736079399,
+    "lat": 35.29817914967329
+  },
+  {
+    "name": "Warren J. Baker Center",
+    "lon": -120.660814952355,
+    "lat": 35.30122399967352
+  },
+  {
+    "name": "IP Storage",
+    "lon": -120.65381627439024,
+    "lat": 35.294481899673
+  },
+  {
+    "name": "Christopher Cohan Center (6)",
+    "lon": -120.65726568845145,
+    "lat": 35.299507999673395
+  },
+  {
+    "name": "Carrizo Plain",
+    "lon": -120.65374813739393,
+    "lat": 35.29707474967321
+  },
+  {
+    "name": "Nipomo",
+    "lon": -120.65415040147516,
+    "lat": 35.296347299673144
+  },
+  {
+    "name": "Cambria",
+    "lon": -120.65534215441915,
+    "lat": 35.297913599673265
+  },
+  {
+    "name": "Avila Beach",
+    "lon": -120.65519609276637,
+    "lat": 35.29679339967318
+  },
+  {
+    "name": "San Luis Obispo",
+    "lon": -120.6543393469046,
+    "lat": 35.29710594967321
+  },
+  {
+    "name": "Paso Robles",
+    "lon": -120.65476978113838,
+    "lat": 35.29776909967326
+  },
+  {
+    "name": "Vista Grande Dining Complex",
+    "lon": -120.6558620998039,
+    "lat": 35.29933529967337
+  },
+  {
+    "name": "Scout Coffee",
+    "lon": -120.65600378796117,
+    "lat": 35.29840309967331
+  },
+  {
+    "name": "William and Linda Frost Center for Research and Innovation (181)",
+    "lon": -120.66120642201086,
+    "lat": 35.30192654967358
+  },
+  {
+    "name": "Pavilion",
+    "lon": -120.65996440709483,
+    "lat": 35.29989704967342
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66295825,
+    "lat": 35.296824849673186
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6628637838223,
+    "lat": 35.29620784967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66308692841821,
+    "lat": 35.29565699967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.662862750084,
+    "lat": 35.294762849673035
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66286121963682,
+    "lat": 35.294956949673036
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66279487239812,
+    "lat": 35.29423624967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66284669999999,
+    "lat": 35.294529099673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66371105068089,
+    "lat": 35.29621204967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66336897120189,
+    "lat": 35.29636814967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66333718362625,
+    "lat": 35.29507529967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66334707094282,
+    "lat": 35.29481819967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66322815000001,
+    "lat": 35.29492169967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66405496821011,
+    "lat": 35.294466549673004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66439322319886,
+    "lat": 35.29420849967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66413523933474,
+    "lat": 35.29415844967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66449528090092,
+    "lat": 35.29400474967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66388712911981,
+    "lat": 35.294030349672965
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66297210050845,
+    "lat": 35.294453399673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66298824999998,
+    "lat": 35.29468769967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66311414915953,
+    "lat": 35.294611049673016
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6630183572633,
+    "lat": 35.29610914967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66420052007297,
+    "lat": 35.295796699673105
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6635149026076,
+    "lat": 35.29569349967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66395198401304,
+    "lat": 35.29600669967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6631065826818,
+    "lat": 35.29596859967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66374916936181,
+    "lat": 35.29534634967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66332951070314,
+    "lat": 35.29552639967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66337319711494,
+    "lat": 35.296619549673174
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6635942819072,
+    "lat": 35.29653044967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66298998571077,
+    "lat": 35.29655804967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6631302814808,
+    "lat": 35.296722449673176
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6632249609662,
+    "lat": 35.29645684967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6606898,
+    "lat": 35.296276849673134
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66223018250001,
+    "lat": 35.296321649673146
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66076691163974,
+    "lat": 35.29638524967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66200691764479,
+    "lat": 35.296441299673155
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65726495026394,
+    "lat": 35.29584649967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65741557100824,
+    "lat": 35.29505294967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65724465003316,
+    "lat": 35.29476859967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65727807842018,
+    "lat": 35.29428654967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65724481132801,
+    "lat": 35.29413099967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65787148905883,
+    "lat": 35.29485794967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6589965883663,
+    "lat": 35.29494179967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66168580376231,
+    "lat": 35.29486064967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66007239248017,
+    "lat": 35.29497894967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66260919795002,
+    "lat": 35.29498539967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66057165991326,
+    "lat": 35.29501069967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65943769625187,
+    "lat": 35.295042149673044
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66010112512356,
+    "lat": 35.294265799672985
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66232803868355,
+    "lat": 35.294143699672986
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66050581854007,
+    "lat": 35.294358249672996
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66165470000001,
+    "lat": 35.29431094967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66068182488465,
+    "lat": 35.294358149673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66171520203895,
+    "lat": 35.29417669967298
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66173306410982,
+    "lat": 35.294034199672964
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66165454592146,
+    "lat": 35.29450619967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66176765011588,
+    "lat": 35.294477999673006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66169050489506,
+    "lat": 35.29470074967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66272029999999,
+    "lat": 35.29460369967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66216175701548,
+    "lat": 35.294505799673004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66092734976377,
+    "lat": 35.294847249673026
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66113703260308,
+    "lat": 35.29488409967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66055284739676,
+    "lat": 35.294604199673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66167341940354,
+    "lat": 35.29582399967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66140672207695,
+    "lat": 35.296092499673136
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66040437223678,
+    "lat": 35.29550579967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66215506846515,
+    "lat": 35.29555634967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6618444922787,
+    "lat": 35.2956103496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66193474329943,
+    "lat": 35.29571239967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6618229393198,
+    "lat": 35.295488549673074
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66248569944345,
+    "lat": 35.29617519967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.662022,
+    "lat": 35.29581274967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66273108970665,
+    "lat": 35.295853499673115
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66175510400547,
+    "lat": 35.295931049673115
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66077996022608,
+    "lat": 35.29533524967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6606340979816,
+    "lat": 35.295139049673054
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66109877715934,
+    "lat": 35.29516689967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66102068751533,
+    "lat": 35.29620434967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66097597490716,
+    "lat": 35.29585614967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6607339,
+    "lat": 35.29591329967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65941820020431,
+    "lat": 35.294340349672986
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65789011075728,
+    "lat": 35.29432229967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65751197851472,
+    "lat": 35.29432459967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65966127540011,
+    "lat": 35.294286949672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6583524073344,
+    "lat": 35.29428224967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6599095,
+    "lat": 35.294285199672984
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65944130231927,
+    "lat": 35.29481449967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65973291247465,
+    "lat": 35.294402849673006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65995327503406,
+    "lat": 35.29441154967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66004360000001,
+    "lat": 35.294339949672995
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65898909829477,
+    "lat": 35.29470659967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65943489150752,
+    "lat": 35.29468434967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6575060244956,
+    "lat": 35.29475004967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65769454429582,
+    "lat": 35.294770299673026
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65837436779529,
+    "lat": 35.294787899673025
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65950654804199,
+    "lat": 35.295919299673116
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65747734255095,
+    "lat": 35.2958388496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65792543793373,
+    "lat": 35.295755449673095
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65769311932918,
+    "lat": 35.29584654967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65953319377724,
+    "lat": 35.29529454967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65747354595962,
+    "lat": 35.295488849673085
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65769185612686,
+    "lat": 35.29552214967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65764304944088,
+    "lat": 35.29510474967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65785082585619,
+    "lat": 35.29514219967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66225338133609,
+    "lat": 35.29705714967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66183292409912,
+    "lat": 35.2970006996732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6625295,
+    "lat": 35.296999149673205
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66089825325042,
+    "lat": 35.297030399673204
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66147838613675,
+    "lat": 35.29661869967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66155458643249,
+    "lat": 35.296769099673185
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66273990426137,
+    "lat": 35.296911399673185
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66225951335478,
+    "lat": 35.29671554967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.662114505684,
+    "lat": 35.296600199673165
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66173919455674,
+    "lat": 35.2968925496732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66212962957988,
+    "lat": 35.29677879967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66242674743137,
+    "lat": 35.296430549673154
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66184179432258,
+    "lat": 35.2971772996732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66077424742775,
+    "lat": 35.29691694967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66054619828506,
+    "lat": 35.296606649673166
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66061602565469,
+    "lat": 35.29736669967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6610229078224,
+    "lat": 35.29743099967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6609385481361,
+    "lat": 35.29724594967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66051601622239,
+    "lat": 35.29719319967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66018244440298,
+    "lat": 35.29789299967327
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65857501086377,
+    "lat": 35.29692964967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65935633832208,
+    "lat": 35.29671904967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65946529516319,
+    "lat": 35.29660354967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6590133542397,
+    "lat": 35.296899799673184
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65915597128648,
+    "lat": 35.29681269967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66000544163859,
+    "lat": 35.296663949673174
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65868760000001,
+    "lat": 35.2983584496733
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6528531670753,
+    "lat": 35.294934799673044
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65677608736264,
+    "lat": 35.29495874967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65718439901144,
+    "lat": 35.29501244967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65698951906391,
+    "lat": 35.29500859967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65207923201676,
+    "lat": 35.29491804967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65268879999999,
+    "lat": 35.29495819967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65255259993893,
+    "lat": 35.29495729967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65238211695562,
+    "lat": 35.29494314967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65673251085488,
+    "lat": 35.29448864967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65625679628445,
+    "lat": 35.294429449673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65634427605633,
+    "lat": 35.294827099673036
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65573712865185,
+    "lat": 35.29477084967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65694112951631,
+    "lat": 35.294708199673025
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65629964683305,
+    "lat": 35.294640999673014
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65526315417912,
+    "lat": 35.29396329967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65569236839559,
+    "lat": 35.29395859967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65507634966117,
+    "lat": 35.29392724967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6548614463756,
+    "lat": 35.294000899672966
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65669524143357,
+    "lat": 35.29426134967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65598215,
+    "lat": 35.2956794996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6564545827783,
+    "lat": 35.29578869967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65706134246466,
+    "lat": 35.295802199673105
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65685924999998,
+    "lat": 35.295424749673074
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6570798576229,
+    "lat": 35.29542224967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65592875691624,
+    "lat": 35.29516764967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65349518628466,
+    "lat": 35.294364499672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65270784993122,
+    "lat": 35.29402789967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65211954226818,
+    "lat": 35.293989899672965
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65282074999999,
+    "lat": 35.29462054967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65240565793032,
+    "lat": 35.294447899673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65282939938444,
+    "lat": 35.29449789967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65222940434342,
+    "lat": 35.29438494967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65203849976115,
+    "lat": 35.29452144967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65255809838007,
+    "lat": 35.294368099672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65267307496529,
+    "lat": 35.29482634967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6521123037748,
+    "lat": 35.29474374967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65286150683073,
+    "lat": 35.29477924967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65205764334556,
+    "lat": 35.29439994967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65283120941517,
+    "lat": 35.294359649673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65285884900881,
+    "lat": 35.2957794996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65205994480033,
+    "lat": 35.295696549673096
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65212080325328,
+    "lat": 35.29585959967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65243893912756,
+    "lat": 35.295834749673105
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65285714941263,
+    "lat": 35.29588264967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65285288969072,
+    "lat": 35.29543754967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65209845246085,
+    "lat": 35.29544764967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6528323783245,
+    "lat": 35.295572249673086
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65285282062796,
+    "lat": 35.2956591496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65210610240801,
+    "lat": 35.29528524967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65271439600676,
+    "lat": 35.29526449967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65235095860257,
+    "lat": 35.29530604967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6525502523474,
+    "lat": 35.29533669967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6632794810717,
+    "lat": 35.29993304967341
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65165424067905,
+    "lat": 35.29493004967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65111601245476,
+    "lat": 35.29491759967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65132838195092,
+    "lat": 35.29488509967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65159938786707,
+    "lat": 35.29400359967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6513561260955,
+    "lat": 35.293956849672966
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65112313554843,
+    "lat": 35.293948199672954
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65109935039746,
+    "lat": 35.29456224967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65166069145367,
+    "lat": 35.29440189967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65158035265182,
+    "lat": 35.29478529967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6514281214726,
+    "lat": 35.29437749967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6513207996409,
+    "lat": 35.294405199673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6514405,
+    "lat": 35.2956668496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65088267308894,
+    "lat": 35.29527064967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65156710538125,
+    "lat": 35.29527224967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65098789999999,
+    "lat": 35.29540364967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65157092206233,
+    "lat": 35.29542279967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65113053466095,
+    "lat": 35.29547014967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6512597401443,
+    "lat": 35.29539884967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6511235517709,
+    "lat": 35.29580304967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65154994296259,
+    "lat": 35.29578824967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65207028026961,
+    "lat": 35.29558954967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65274569974555,
+    "lat": 35.2958383996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65274677343075,
+    "lat": 35.295737099673104
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65663029999999,
+    "lat": 35.294124649672966
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65742237316542,
+    "lat": 35.29557254967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6574044756608,
+    "lat": 35.29561624967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65434220521732,
+    "lat": 35.29400584967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6539477566421,
+    "lat": 35.29402899967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65125612430212,
+    "lat": 35.294560499673004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65114817596876,
+    "lat": 35.294400749673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65146904091182,
+    "lat": 35.29457084967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65153354915728,
+    "lat": 35.29455379967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66110431996918,
+    "lat": 35.29463854967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66171883737331,
+    "lat": 35.29678104967317
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65965377528153,
+    "lat": 35.29467184967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66181167495978,
+    "lat": 35.294381449673004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6592360074871,
+    "lat": 35.29596039967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66173979590278,
+    "lat": 35.297088899673206
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65880326396683,
+    "lat": 35.2969157496732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65375704175494,
+    "lat": 35.294369099673006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65402528373754,
+    "lat": 35.29436794967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65430688292724,
+    "lat": 35.294372549673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66268935263692,
+    "lat": 35.296016099673125
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65840476994128,
+    "lat": 35.29544384967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65842748767334,
+    "lat": 35.29511849967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65888206356223,
+    "lat": 35.29623754967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65727740510798,
+    "lat": 35.295471649673075
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65870046633765,
+    "lat": 35.29645039967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65860299368228,
+    "lat": 35.29609339967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66033641281396,
+    "lat": 35.29676624967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66060365380673,
+    "lat": 35.29477159967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66107011382405,
+    "lat": 35.29452694967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6600963017363,
+    "lat": 35.295249049673075
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66006765,
+    "lat": 35.294614999673016
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66093794686482,
+    "lat": 35.294548949673015
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65953319988814,
+    "lat": 35.29468409967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66115674726649,
+    "lat": 35.29504329967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65829750918613,
+    "lat": 35.29454284967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65900130497216,
+    "lat": 35.29451529967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6589560459202,
+    "lat": 35.29432904967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65883052474635,
+    "lat": 35.294789799673026
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65775754246846,
+    "lat": 35.29396084967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.656746375,
+    "lat": 35.29405079967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65743000139778,
+    "lat": 35.293960949672964
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65771169660056,
+    "lat": 35.29429919967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65652975,
+    "lat": 35.29493904967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65630406468995,
+    "lat": 35.294260199672976
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6546854003178,
+    "lat": 35.29398274967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6542974388104,
+    "lat": 35.29466714967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65573554597327,
+    "lat": 35.29455609967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65580072166497,
+    "lat": 35.294353049672985
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65550105411594,
+    "lat": 35.29393299967295
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6552545,
+    "lat": 35.29559064967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65534080011432,
+    "lat": 35.29559174967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65543475068003,
+    "lat": 35.295591299673085
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65350755878012,
+    "lat": 35.295502349673086
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65689241170449,
+    "lat": 35.29575019967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65578201387436,
+    "lat": 35.29496434967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65660372306743,
+    "lat": 35.295435499673076
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65483325,
+    "lat": 35.295590049673095
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65491812499997,
+    "lat": 35.29559034967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65500197498085,
+    "lat": 35.29559059967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6550861,
+    "lat": 35.29559089967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65517022509619,
+    "lat": 35.295590949673084
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65624292258465,
+    "lat": 35.29581759967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6560613472555,
+    "lat": 35.29582834967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65616032109583,
+    "lat": 35.295271949673065
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65640119386438,
+    "lat": 35.295431699673074
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6556343599527,
+    "lat": 35.29575089967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65566129999999,
+    "lat": 35.295641199673085
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65665573497819,
+    "lat": 35.2958230996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65586948002576,
+    "lat": 35.2957735996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65884372334614,
+    "lat": 35.29488114967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65837589999998,
+    "lat": 35.29495224967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6589822580074,
+    "lat": 35.29518759967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65880975,
+    "lat": 35.29509109967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65831697139652,
+    "lat": 35.29572389967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65905237595376,
+    "lat": 35.29540059967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65854080784254,
+    "lat": 35.29586969967312
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65843539916746,
+    "lat": 35.295601299673095
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66050747200401,
+    "lat": 35.29613619967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66024695412547,
+    "lat": 35.29627229967315
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65963474934537,
+    "lat": 35.296445749673154
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65970547665749,
+    "lat": 35.29626214967314
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66222034836642,
+    "lat": 35.29495724967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6615518482266,
+    "lat": 35.295382149673074
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66129375834862,
+    "lat": 35.29550504967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66118271335971,
+    "lat": 35.2956835496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65961008337233,
+    "lat": 35.29608774967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65927445080493,
+    "lat": 35.2957338496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65999155955626,
+    "lat": 35.29582584967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65980204046619,
+    "lat": 35.29556439967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6624578,
+    "lat": 35.295339449673065
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6627533,
+    "lat": 35.295400099673074
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66272188203322,
+    "lat": 35.29483794967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66177643246574,
+    "lat": 35.29530469967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66420075460115,
+    "lat": 35.29614674967313
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6524943,
+    "lat": 35.29480429967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65225074486642,
+    "lat": 35.29560819967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65236829999999,
+    "lat": 35.29565784967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65142349239332,
+    "lat": 35.29531444967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65250885001493,
+    "lat": 35.29887344967335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65230269467408,
+    "lat": 35.29893669967335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6640344894233,
+    "lat": 35.30057689967347
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66429014823441,
+    "lat": 35.29594514967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66104416941897,
+    "lat": 35.29943549967339
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66156579101497,
+    "lat": 35.300833499673494
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.663913220845,
+    "lat": 35.29896419967335
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66195399999998,
+    "lat": 35.29398729967296
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66306339999998,
+    "lat": 35.29515489967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65128399589517,
+    "lat": 35.2957838996731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65238410050503,
+    "lat": 35.29546259967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66251424999999,
+    "lat": 35.297266549673225
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66230275552596,
+    "lat": 35.29726099967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65776643488306,
+    "lat": 35.298840999673345
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66244555,
+    "lat": 35.297402799673236
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65840641571651,
+    "lat": 35.29752724967324
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65275544999999,
+    "lat": 35.299188099673366
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65274210012885,
+    "lat": 35.29558744967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66250488756248,
+    "lat": 35.29720204967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66298745,
+    "lat": 35.29720689967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65259444999998,
+    "lat": 35.29586334967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6623866185281,
+    "lat": 35.29732834967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65678701283035,
+    "lat": 35.296268999673146
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66007596653137,
+    "lat": 35.29475624967303
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65213414468238,
+    "lat": 35.29449424967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65285784628826,
+    "lat": 35.29402664967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66103364055039,
+    "lat": 35.294282799672985
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65349267725611,
+    "lat": 35.293992049672966
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65944920000001,
+    "lat": 35.29450039967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65377069999998,
+    "lat": 35.29406999967297
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65271347349245,
+    "lat": 35.294448899673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65360580017857,
+    "lat": 35.29581474967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65873077471346,
+    "lat": 35.294213949672994
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66010089866124,
+    "lat": 35.29548454967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66048059951461,
+    "lat": 35.29492674967304
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65232505,
+    "lat": 35.29469754967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65266665,
+    "lat": 35.29434444967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65370255000002,
+    "lat": 35.293974349672965
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65991442496026,
+    "lat": 35.29480599967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65227935022658,
+    "lat": 35.294469099673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65264927493918,
+    "lat": 35.29467829967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65374445,
+    "lat": 35.2958020496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65224454999998,
+    "lat": 35.29468354967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66089053139639,
+    "lat": 35.29510869967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65994260531977,
+    "lat": 35.29560889967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6529669028966,
+    "lat": 35.296337699673145
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66025008561968,
+    "lat": 35.29543374967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65243335887561,
+    "lat": 35.293990449672975
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65910551060267,
+    "lat": 35.295728399673095
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65145547488345,
+    "lat": 35.29467944967301
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65762995,
+    "lat": 35.29567779967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6601970506877,
+    "lat": 35.29712149967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66130473904289,
+    "lat": 35.297216699673214
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66092153972498,
+    "lat": 35.29683184967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66030647567585,
+    "lat": 35.29714814967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66133480345147,
+    "lat": 35.29742014967323
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6631115532291,
+    "lat": 35.29951959967339
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66278544308634,
+    "lat": 35.29507994967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66272044933896,
+    "lat": 35.29511734967305
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66265325678643,
+    "lat": 35.295155899673055
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66258870000001,
+    "lat": 35.295192949673066
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66252964999998,
+    "lat": 35.29522684967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66247455000001,
+    "lat": 35.29525849967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66241665000001,
+    "lat": 35.29529169967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66236165000001,
+    "lat": 35.29532324967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66130319999999,
+    "lat": 35.29659714967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66134539999999,
+    "lat": 35.29667919967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66138711613806,
+    "lat": 35.29676034967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66143197363829,
+    "lat": 35.29684754967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66148480839904,
+    "lat": 35.29697339967319
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66152699999998,
+    "lat": 35.2970553996732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66156869999999,
+    "lat": 35.29713654967321
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66161354999998,
+    "lat": 35.29722379967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6613461,
+    "lat": 35.297024299673204
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66138829999998,
+    "lat": 35.297106349673214
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66143,
+    "lat": 35.297187499673214
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66147485896002,
+    "lat": 35.29727474967322
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66115839999999,
+    "lat": 35.29664619967316
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6612006,
+    "lat": 35.29672824967318
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66124229999998,
+    "lat": 35.296809399673165
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66128715896002,
+    "lat": 35.2968966496732
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66283279999999,
+    "lat": 35.29513489967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66276775,
+    "lat": 35.29517224967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66270059028477,
+    "lat": 35.29521079967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6626360014473,
+    "lat": 35.29524784967306
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66257080000001,
+    "lat": 35.295274599673064
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6625157,
+    "lat": 35.29530624967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6624028,
+    "lat": 35.29537099967307
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6614328,
+    "lat": 35.29592294967311
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65756159280741,
+    "lat": 35.299406999673394
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65747753697181,
+    "lat": 35.29928794967338
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.657523203919,
+    "lat": 35.29935264967338
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65588015048814,
+    "lat": 35.29771479967326
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65161945267857,
+    "lat": 35.29461324967302
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66039926343731,
+    "lat": 35.29567549967308
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6575856642647,
+    "lat": 35.29880049967334
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65246239999999,
+    "lat": 35.300922199673494
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65588498511175,
+    "lat": 35.2983108996733
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66246915641024,
+    "lat": 35.300295949673455
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66324740290085,
+    "lat": 35.30020554967345
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66014696704147,
+    "lat": 35.2957431496731
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66007508960561,
+    "lat": 35.294438849673
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65850287850526,
+    "lat": 35.29431809967299
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65131860157459,
+    "lat": 35.29563204967309
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65115041124297,
+    "lat": 35.29532154967307
+  },
+  {
+    "name": "Engineering IV",
+    "lon": -120.6648836346433,
+    "lat": 35.30291824967366
+  },
+  {
+    "name": "Bonderson Engineering Center",
+    "lon": -120.66421988058327,
+    "lat": 35.30246039967362
+  },
+  {
+    "name": "Advanced Technologies Laboratory",
+    "lon": -120.66507945101726,
+    "lat": 35.30220514967361
+  },
+  {
+    "name": "Crop Science Building",
+    "lon": -120.668668332,
+    "lat": 35.30265824967364
+  },
+  {
+    "name": "32C- Equine Center Breeding Barn",
+    "lon": -120.66455210913705,
+    "lat": 35.30987744967421
+  },
+  {
+    "name": "18B- Dairy Science Physiology Lab",
+    "lon": -120.67242796618689,
+    "lat": 35.307783299674036
+  },
+  {
+    "name": "Dairy Science",
+    "lon": -120.67248997384954,
+    "lat": 35.307118849674
+  },
+  {
+    "name": "57A- Veterinary Hospital Annex",
+    "lon": -120.6704118553802,
+    "lat": 35.3060668996739
+  },
+  {
+    "name": "57- Veterinary Hospital",
+    "lon": -120.67033022014542,
+    "lat": 35.305941199673896
+  },
+  {
+    "name": "Aero Hanger",
+    "lon": -120.66469857493024,
+    "lat": 35.30559579967387
+  },
+  {
+    "name": "04E- Aero Hazardous Material Storage",
+    "lon": -120.66532594140625,
+    "lat": 35.30555594967386
+  },
+  {
+    "name": "Research Development Center",
+    "lon": -120.6649363,
+    "lat": 35.30536364967385
+  },
+  {
+    "name": "Public Safety Lab",
+    "lon": -120.66448883408813,
+    "lat": 35.305413149673846
+  },
+  {
+    "name": "Corporation Warehouse",
+    "lon": -120.6709309004168,
+    "lat": 35.30528749967385
+  },
+  {
+    "name": "32- Cal Poly Equine Center",
+    "lon": -120.6643985,
+    "lat": 35.30903574967413
+  },
+  {
+    "name": "Dairy Science Cow Shelter",
+    "lon": -120.67185640834596,
+    "lat": 35.30685379967397
+  },
+  {
+    "name": "Dairy Science Judging Pavilion",
+    "lon": -120.67169723368553,
+    "lat": 35.30631989967393
+  },
+  {
+    "name": "18H- Dairy Science Hospital Barn",
+    "lon": -120.67348695,
+    "lat": 35.30744414967401
+  },
+  {
+    "name": "Dairy Products Technology Center",
+    "lon": -120.67158650086918,
+    "lat": 35.307514549674025
+  },
+  {
+    "name": "Horse Stalls",
+    "lon": -120.66951059770672,
+    "lat": 35.30761504967402
+  },
+  {
+    "name": "32J- Equine Center Mare Barn",
+    "lon": -120.66457318313782,
+    "lat": 35.30952994967417
+  },
+  {
+    "name": "Horse Stalls",
+    "lon": -120.66953312095913,
+    "lat": 35.308388199674084
+  },
+  {
+    "name": "Dairy Science Freestall A",
+    "lon": -120.67513034999999,
+    "lat": 35.30762949967403
+  },
+  {
+    "name": "Dairy Science Freestall B",
+    "lon": -120.67418030064536,
+    "lat": 35.307812249674036
+  },
+  {
+    "name": "57B-Veterinary Hospital Post Mortem Area",
+    "lon": -120.67042399121621,
+    "lat": 35.30622329967392
+  },
+  {
+    "name": "Reinhold Aerospace",
+    "lon": -120.66601796030095,
+    "lat": 35.3021149496736
+  },
+  {
+    "name": "18E- Dairy Science Bull Barn",
+    "lon": -120.67148639671859,
+    "lat": 35.30643204967393
+  },
+  {
+    "name": "18C- Dairy Science Artificial Insemination Lab",
+    "lon": -120.67131093025876,
+    "lat": 35.30657944967395
+  },
+  {
+    "name": "160B- Baseball Stadium, Team Room",
+    "lon": -120.66578439999999,
+    "lat": 35.306658799673954
+  },
+  {
+    "name": "Rose Float Lab",
+    "lon": -120.67113089241286,
+    "lat": 35.30399514967374
+  },
+  {
+    "name": "160D- Batting Cages 160 North",
+    "lon": -120.66445404999999,
+    "lat": 35.30717109967399
+  },
+  {
+    "name": "161A- Sports Complex Softball Stadium, Lockers",
+    "lon": -120.66675634439588,
+    "lat": 35.30681334967396
+  },
+  {
+    "name": "50K- Comunications Services Storage",
+    "lon": -120.67127684710579,
+    "lat": 35.30422889967375
+  },
+  {
+    "name": "Mount Bishop Warehouse",
+    "lon": -120.67146258740587,
+    "lat": 35.30449079967377
+  },
+  {
+    "name": "Brown Engineering",
+    "lon": -120.66592552800633,
+    "lat": 35.302582949673635
+  },
+  {
+    "name": "Technology Park",
+    "lon": -120.67174673354916,
+    "lat": 35.30541439967385
+  },
+  {
+    "name": "04D- Aero Jet Engine Test Facility",
+    "lon": -120.66520444006125,
+    "lat": 35.305632299673874
+  },
+  {
+    "name": "57C-Veterinary Hospital Residence Trailer (M020)",
+    "lon": -120.67062314594095,
+    "lat": 35.30622614967391
+  },
+  {
+    "name": "Classroom",
+    "lon": -120.6732146,
+    "lat": 35.30997709967421
+  },
+  {
+    "name": "161C- Batting Cages 161 North",
+    "lon": -120.66613406740841,
+    "lat": 35.30750339967401
+  },
+  {
+    "name": "Hay Bunker",
+    "lon": -120.66978121339909,
+    "lat": 35.30725739967399
+  },
+  {
+    "name": "Hay Storage Barn",
+    "lon": -120.67140941056093,
+    "lat": 35.309671199674185
+  },
+  {
+    "name": "180- Dairy Science Methane Power Plant",
+    "lon": -120.67303975,
+    "lat": 35.30708469967398
+  },
+  {
+    "name": "E&J Gallo Building",
+    "lon": -120.66949686372112,
+    "lat": 35.30380129967372
+  },
+  {
+    "name": "Lohr Family Winery",
+    "lon": -120.66911997897091,
+    "lat": 35.3034136996737
+  },
+  {
+    "name": "Livestock  Feedlot Pens",
+    "lon": -120.67127912804125,
+    "lat": 35.30978889967419
+  },
+  {
+    "name": "Livestock Feedlot Pens",
+    "lon": -120.67153042427593,
+    "lat": 35.30955704967416
+  },
+  {
+    "name": "Cal Poly Rodeo Office",
+    "lon": -120.67074107594743,
+    "lat": 35.30874689967412
+  },
+  {
+    "name": "Hay Bunker",
+    "lon": -120.66990825309209,
+    "lat": 35.30897584967413
+  },
+  {
+    "name": "Horse Stalls",
+    "lon": -120.66935321487531,
+    "lat": 35.30751794967402
+  },
+  {
+    "name": "Horse Stalls",
+    "lon": -120.66938844873074,
+    "lat": 35.3085718996741
+  },
+  {
+    "name": "Hay Bunker",
+    "lon": -120.66905417728425,
+    "lat": 35.308167849674064
+  },
+  {
+    "name": "Announcer's Booth",
+    "lon": -120.67091966897028,
+    "lat": 35.30936029967417
+  },
+  {
+    "name": "Livestock Pens",
+    "lon": -120.67069956447307,
+    "lat": 35.309423049674166
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6687792699754,
+    "lat": 35.30282314967366
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6666907,
+    "lat": 35.30237519967362
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67738934532879,
+    "lat": 35.3022105496736
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67763922413315,
+    "lat": 35.302297899673604
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67803665,
+    "lat": 35.30229319967361
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66882394462304,
+    "lat": 35.30236264967361
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66491612033334,
+    "lat": 35.30918509967415
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67203915000002,
+    "lat": 35.307930149674036
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67295047442565,
+    "lat": 35.30830039967408
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67346159963975,
+    "lat": 35.30778729967403
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66561855,
+    "lat": 35.302039699673585
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66617974999998,
+    "lat": 35.30198554967358
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66914172277453,
+    "lat": 35.302491199673625
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66926511325664,
+    "lat": 35.302359399673605
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66982028195876,
+    "lat": 35.30216099967359
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66823140453899,
+    "lat": 35.30811614967406
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67171719999999,
+    "lat": 35.307171849673985
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66896243729225,
+    "lat": 35.302737549673644
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66856541208855,
+    "lat": 35.30293609967366
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66572165152004,
+    "lat": 35.307401999674006
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66869035,
+    "lat": 35.302874649673655
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6706871,
+    "lat": 35.30646874967394
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67149864462556,
+    "lat": 35.308085499674064
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.669745,
+    "lat": 35.302055849673586
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66783604999999,
+    "lat": 35.30806879967406
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66557620702646,
+    "lat": 35.307340399674004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66886769231161,
+    "lat": 35.30278654967365
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6659216,
+    "lat": 35.30676669967396
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66469220006496,
+    "lat": 35.30504014967383
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66663965000001,
+    "lat": 35.30971009967419
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66616048800539,
+    "lat": 35.30689619967396
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67069947327704,
+    "lat": 35.30394079967374
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.67118589371815,
+    "lat": 35.30712284967399
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66473615,
+    "lat": 35.307354049674004
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66543530389993,
+    "lat": 35.30236099967361
+  },
+  {
+    "name": "Robert E. Kennedy Library",
+    "lon": -120.66406530359518,
+    "lat": 35.301863799673576
+  },
+  {
+    "name": "Village Drive Parking Structure (271)",
+    "lon": -120.66005040311211,
+    "lat": 35.30616809967391
+  },
+  {
+    "name": "Canyon Circle Parking Structure (371)",
+    "lon": -120.65935543969877,
+    "lat": 35.30947444967417
+  },
+  {
+    "name": "Shasta Hall",
+    "lon": -120.65869459708972,
+    "lat": 35.30290619967364
+  },
+  {
+    "name": "Diablo Hall",
+    "lon": -120.65818982520227,
+    "lat": 35.303136749673676
+  },
+  {
+    "name": "Palomar Hall",
+    "lon": -120.65765693495706,
+    "lat": 35.30307319967366
+  },
+  {
+    "name": "Farm Shop",
+    "lon": -120.6622933204477,
+    "lat": 35.30439784967376
+  },
+  {
+    "name": "Engineering IV",
+    "lon": -120.6648836346433,
+    "lat": 35.30291824967366
+  },
+  {
+    "name": "Bonderson Engineering Center",
+    "lon": -120.66421988058327,
+    "lat": 35.30246039967362
+  },
+  {
+    "name": "32C- Equine Center Breeding Barn",
+    "lon": -120.66455210913705,
+    "lat": 35.30987744967421
+  },
+  {
+    "name": "48F- EHS Solar Greenhouse",
+    "lon": -120.66297029999998,
+    "lat": 35.30921479967415
+  },
+  {
+    "name": "Horticulture Dorm",
+    "lon": -120.66381045249261,
+    "lat": 35.309040249674126
+  },
+  {
+    "name": "Aero Hanger",
+    "lon": -120.66469857493024,
+    "lat": 35.30559579967387
+  },
+  {
+    "name": "Public Safety Lab",
+    "lon": -120.66448883408813,
+    "lat": 35.305413149673846
+  },
+  {
+    "name": "Aero Storage",
+    "lon": -120.66440663431372,
+    "lat": 35.305545749673854
+  },
+  {
+    "name": "Mathematics and Science (38)",
+    "lon": -120.66230292705342,
+    "lat": 35.30176449967357
+  },
+  {
+    "name": "Alan A. Erhart Agriculture (10)",
+    "lon": -120.6614927484865,
+    "lat": 35.30193669967358
+  },
+  {
+    "name": "Trinity Hall",
+    "lon": -120.65715196627688,
+    "lat": 35.301823949673576
+  },
+  {
+    "name": "Transportation Services",
+    "lon": -120.65870107012475,
+    "lat": 35.30403504967374
+  },
+  {
+    "name": "Bioresource and Agricultural Engineering",
+    "lon": -120.66229958410348,
+    "lat": 35.3034746496737
+  },
+  {
+    "name": "Facility Services/Receiving Warehouse",
+    "lon": -120.65959913139137,
+    "lat": 35.30385944967374
+  },
+  {
+    "name": "Housing Warehouse/Risk Management",
+    "lon": -120.66080272865423,
+    "lat": 35.303580899673705
+  },
+  {
+    "name": "Corporation Administration",
+    "lon": -120.66023700148564,
+    "lat": 35.30315449967368
+  },
+  {
+    "name": "Bioresource and Agricultural Engineering",
+    "lon": -120.66159280251759,
+    "lat": 35.30313489967367
+  },
+  {
+    "name": "Emergency Operations Center",
+    "lon": -120.66088220461579,
+    "lat": 35.30295449967366
+  },
+  {
+    "name": "English (22)",
+    "lon": -120.6609299948527,
+    "lat": 35.3022089996736
+  },
+  {
+    "name": "Beef Unit",
+    "lon": -120.66312199999999,
+    "lat": 35.307000899673966
+  },
+  {
+    "name": "Herdsman Hall",
+    "lon": -120.66334292706833,
+    "lat": 35.30723594967399
+  },
+  {
+    "name": "48- Environmental Horitcultural Science",
+    "lon": -120.66316175,
+    "lat": 35.30917449967414
+  },
+  {
+    "name": "48- Environmental Horitcultural Science",
+    "lon": -120.6635332350466,
+    "lat": 35.30932884967416
+  },
+  {
+    "name": "48K- EHS Greenhouse",
+    "lon": -120.66268495,
+    "lat": 35.308909099674125
+  },
+  {
+    "name": "Hoop House",
+    "lon": -120.66283479999998,
+    "lat": 35.30924164967415
+  },
+  {
+    "name": "48M- EHS Pesticide Storage",
+    "lon": -120.6623326983408,
+    "lat": 35.3087125996741
+  },
+  {
+    "name": "48N- EHS Bug House",
+    "lon": -120.66213075511777,
+    "lat": 35.30878769967411
+  },
+  {
+    "name": "48I- EHS Shade House",
+    "lon": -120.6628607,
+    "lat": 35.30900404967413
+  },
+  {
+    "name": "48- Environmental Horitcultural Science",
+    "lon": -120.6634549443024,
+    "lat": 35.30911909967414
+  },
+  {
+    "name": "32- Cal Poly Equine Center",
+    "lon": -120.6643985,
+    "lat": 35.30903574967413
+  },
+  {
+    "name": "48J- EHS Lath House (AL)",
+    "lon": -120.66316065,
+    "lat": 35.30896794967413
+  },
+  {
+    "name": "48D- EHS Tractor Barn",
+    "lon": -120.6630921,
+    "lat": 35.30974459967419
+  },
+  {
+    "name": "48E- EHS Garcia Barn",
+    "lon": -120.66310212850783,
+    "lat": 35.309585199674174
+  },
+  {
+    "name": "32J- Equine Center Mare Barn",
+    "lon": -120.66457318313782,
+    "lat": 35.30952994967417
+  },
+  {
+    "name": "Islay",
+    "lon": -120.6564067545745,
+    "lat": 35.30486144967381
+  },
+  {
+    "name": "Bishop",
+    "lon": -120.65677957506237,
+    "lat": 35.30554714967386
+  },
+  {
+    "name": "San Luis (170G)",
+    "lon": -120.65727347514968,
+    "lat": 35.30405729967374
+  },
+  {
+    "name": "Morro",
+    "lon": -120.65664713389259,
+    "lat": 35.30438894967377
+  },
+  {
+    "name": "Romauldo",
+    "lon": -120.65717170029427,
+    "lat": 35.30538424967385
+  },
+  {
+    "name": "Cabrillo",
+    "lon": -120.65700432257324,
+    "lat": 35.3046265496738
+  },
+  {
+    "name": "Hollister",
+    "lon": -120.65718871165865,
+    "lat": 35.304950249673816
+  },
+  {
+    "name": "48Q- EHS Environmental Horticultural Science D&P",
+    "lon": -120.66249742266336,
+    "lat": 35.30867979967411
+  },
+  {
+    "name": "University Police",
+    "lon": -120.66175949477412,
+    "lat": 35.303798499673725
+  },
+  {
+    "name": "Welding",
+    "lon": -120.66141907428222,
+    "lat": 35.303607049673715
+  },
+  {
+    "name": "Agricultural Science",
+    "lon": -120.66292321004275,
+    "lat": 35.302895949673655
+  },
+  {
+    "name": "Food Processing/Cal Poly Meats",
+    "lon": -120.66300737842084,
+    "lat": 35.30365019967372
+  },
+  {
+    "name": "Science North",
+    "lon": -120.65985451882368,
+    "lat": 35.30201314967359
+  },
+  {
+    "name": "Faculty Offices North",
+    "lon": -120.66002337286378,
+    "lat": 35.30230659967361
+  },
+  {
+    "name": "Cal Poly Campus Market",
+    "lon": -120.66297263035332,
+    "lat": 35.303287049673685
+  },
+  {
+    "name": "Clyde P. Fisher Science",
+    "lon": -120.65922091221964,
+    "lat": 35.302191649673595
+  },
+  {
+    "name": "Whitney Hall",
+    "lon": -120.657971127309,
+    "lat": 35.30251779967362
+  },
+  {
+    "name": "Lassen Hall",
+    "lon": -120.6584271179614,
+    "lat": 35.30246859967362
+  },
+  {
+    "name": "Temporary Plant Conservatory",
+    "lon": -120.66353632667597,
+    "lat": 35.309933799674205
+  },
+  {
+    "name": "Reservoir #1",
+    "lon": -120.65551386530612,
+    "lat": 35.302693799673634
+  },
+  {
+    "name": "Foxen (171F)",
+    "lon": -120.65841041709604,
+    "lat": 35.30867269967411
+  },
+  {
+    "name": "Gypsum (171G)",
+    "lon": -120.65701854898569,
+    "lat": 35.30850639967409
+  },
+  {
+    "name": "Dover (171D)",
+    "lon": -120.65991292682077,
+    "lat": 35.308682899674096
+  },
+  {
+    "name": "Estrella (171E)",
+    "lon": -120.65960051111111,
+    "lat": 35.308886349674125
+  },
+  {
+    "name": "Corralitos (171C)",
+    "lon": -120.65931593015783,
+    "lat": 35.308229699674065
+  },
+  {
+    "name": "Aliso (171A)",
+    "lon": -120.65945856336336,
+    "lat": 35.306770799673956
+  },
+  {
+    "name": "160D- Batting Cages 160 North",
+    "lon": -120.66445404999999,
+    "lat": 35.30717109967399
+  },
+  {
+    "name": "Hillcrest",
+    "lon": -120.65814210224393,
+    "lat": 35.30204219967359
+  },
+  {
+    "name": "Housing and Residential Life",
+    "lon": -120.65760120909721,
+    "lat": 35.30200049967359
+  },
+  {
+    "name": "Huasna (171H)",
+    "lon": -120.65785618027486,
+    "lat": 35.30796029967405
+  },
+  {
+    "name": "171A",
+    "lon": -120.65921732325407,
+    "lat": 35.307369999673995
+  },
+  {
+    "name": "171A",
+    "lon": -120.65939725486197,
+    "lat": 35.30729439967401
+  },
+  {
+    "name": "Buena Vista (171B)",
+    "lon": -120.65954197397528,
+    "lat": 35.30761669967403
+  },
+  {
+    "name": "Inyo (171I)",
+    "lon": -120.65846152733513,
+    "lat": 35.30752369967401
+  },
+  {
+    "name": "48L0 EHS Greenhouse",
+    "lon": -120.66241051901329,
+    "lat": 35.308943199674125
+  },
+  {
+    "name": "48B- EHS Lath House",
+    "lon": -120.66345493698537,
+    "lat": 35.30953139967416
+  },
+  {
+    "name": "160F- Sport Complex Maintenance Building",
+    "lon": -120.66435368313185,
+    "lat": 35.30594319967389
+  },
+  {
+    "name": "Faculty Offices North",
+    "lon": -120.66005550797627,
+    "lat": 35.302623149673636
+  },
+  {
+    "name": "Faculty Offices North",
+    "lon": -120.66025710867241,
+    "lat": 35.30245759967363
+  },
+  {
+    "name": "48- Environmental Horitcultural Science",
+    "lon": -120.66322466999111,
+    "lat": 35.30938774967417
+  },
+  {
+    "name": "Cal Poly Plant Conservatory",
+    "lon": -120.6588532471034,
+    "lat": 35.3047382496738
+  },
+  {
+    "name": "Building 072 Offices",
+    "lon": -120.65906441853319,
+    "lat": 35.30484209967381
+  },
+  {
+    "name": "Oceano Dunes Project Hoop House",
+    "lon": -120.66257980698067,
+    "lat": 35.30970369967417
+  },
+  {
+    "name": "William and Linda Frost Center for Research and Innovation (181)",
+    "lon": -120.66120642201086,
+    "lat": 35.30192654967358
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66335633189117,
+    "lat": 35.303767349673734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66302905,
+    "lat": 35.30941699967416
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6596169963866,
+    "lat": 35.30443694967377
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66410004252407,
+    "lat": 35.309788199674195
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66253101172404,
+    "lat": 35.30930049967415
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66078312519386,
+    "lat": 35.30408679967375
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66013031070952,
+    "lat": 35.304434649673766
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6605017,
+    "lat": 35.30411734967376
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65922970849638,
+    "lat": 35.30422259967376
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66106034653123,
+    "lat": 35.30432454967377
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66083432321862,
+    "lat": 35.30444064967378
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6616533519701,
+    "lat": 35.30474679967381
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66212083882452,
+    "lat": 35.30671439967395
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66109269772575,
+    "lat": 35.3035190996737
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65829770383256,
+    "lat": 35.30712834967399
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66018970237491,
+    "lat": 35.30404159967375
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65882492238978,
+    "lat": 35.307346699674
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65998269109191,
+    "lat": 35.30712559967398
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65951597153284,
+    "lat": 35.30210579967359
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66233285314513,
+    "lat": 35.309542599674174
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66043070801209,
+    "lat": 35.30711344967399
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.659753,
+    "lat": 35.30706989967398
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65823875197572,
+    "lat": 35.307267399674
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6569759099685,
+    "lat": 35.30878509967412
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66416931962458,
+    "lat": 35.305810199673886
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66220805549658,
+    "lat": 35.30933044967415
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66042641690119,
+    "lat": 35.306718999673954
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6603615251053,
+    "lat": 35.30848024967409
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65984818327186,
+    "lat": 35.309066549674135
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65764644539925,
+    "lat": 35.30758499967402
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6598930882609,
+    "lat": 35.307999499674054
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65833724525322,
+    "lat": 35.30719544967399
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65705316323864,
+    "lat": 35.30825174967407
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66224889999998,
+    "lat": 35.309447949674166
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66119365,
+    "lat": 35.30373599967372
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65952189171294,
+    "lat": 35.30653989967394
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66120613287805,
+    "lat": 35.3035548496737
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66113193117707,
+    "lat": 35.30379614967372
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65802820362825,
+    "lat": 35.30392569967374
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65785565390183,
+    "lat": 35.30391829967374
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65820914625216,
+    "lat": 35.303904749673734
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65550879819276,
+    "lat": 35.30251374967362
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65821584999999,
+    "lat": 35.30401999967374
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65559195,
+    "lat": 35.302988149673666
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65857352150252,
+    "lat": 35.30897214967413
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.65847304999997,
+    "lat": 35.308948199674134
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66073799934625,
+    "lat": 35.309414349674164
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66423406636322,
+    "lat": 35.3060207496739
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66105605671088,
+    "lat": 35.302916899673654
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66096114999999,
+    "lat": 35.303157849673674
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66262555,
+    "lat": 35.30946529967417
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.66267534999997,
+    "lat": 35.30945659967415
+  },
+  {
+    "name": "Unnamed Building",
+    "lon": -120.6614511289729,
+    "lat": 35.30563289967387
+  }
+]
