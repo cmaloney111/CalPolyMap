@@ -27,8 +27,10 @@ class ShortestPathProblem(SearchProblem):
     """
 
     def __init__(self, startLocation: str, endTag: str, cityMap: CityMap):
+        print(startLocation)
         self.startLocation = locationFromTag(startLocation, cityMap)
         self.endTag = endTag
+        print(self.endTag)
         self.cityMap = cityMap
 
     def startState(self) -> State:
@@ -38,7 +40,7 @@ class ShortestPathProblem(SearchProblem):
 
     def isEnd(self, state: State) -> bool:
         # ### START CODE HERE ###
-        return True if self.endTag in self.cityMap.tags[state.location] else False
+        return self.endTag in self.cityMap.tags[state.location]
         # ### END CODE HERE ###
 
     def successorsAndCosts(self, state: State) -> List[Tuple[str, State, float]]:
@@ -65,12 +67,15 @@ class WaypointsShortestPathProblem(SearchProblem):
     def __init__(
         self, startLocation: str, waypointTags: List[str], endTag: str, cityMap: CityMap
     ):
+        print(startLocation)
+        print(waypointTags)
         self.startLocation = locationFromTag(startLocation, cityMap)
         self.endTag = endTag
         self.cityMap = cityMap
 
         # We want waypointTags to be consistent/canonical (sorted) and hashable (tuple)
         self.waypointTags = tuple(sorted(waypointTags))
+        print(waypointTags)
 
     def startState(self) -> State:
         # ### START CODE HERE ###
@@ -79,7 +84,7 @@ class WaypointsShortestPathProblem(SearchProblem):
 
     def isEnd(self, state: State) -> bool:
         # ### START CODE HERE ###
-        return True if self.endTag in self.cityMap.tags[state.location] and set(self.waypointTags).issubset(state.memory) else False
+        return self.endTag in self.cityMap.tags[state.location] and set(self.waypointTags).issubset(state.memory)
         # ### END CODE HERE ###
 
     def successorsAndCosts(self, state: State) -> List[Tuple[str, State, float]]:
@@ -125,7 +130,7 @@ def aStarReduction(problem: SearchProblem, heuristic: Heuristic) -> SearchProble
                 else:
                     new_mem = None
 
-                newCost = problem.cityMap.distances[state.location][successor] + heuristic.evaluate(State(successor)) - heuristic.evaluate(state)
+                newCost = problem.cityMap.distances[state.location][successor] + heuristic.evaluate(state=State(successor)) - heuristic.evaluate(state=state)
                 succAndCost.append((successor, State(successor, new_mem), newCost))
             return succAndCost
             # ### END CODE HERE ###
@@ -135,6 +140,14 @@ def aStarReduction(problem: SearchProblem, heuristic: Heuristic) -> SearchProble
 
 ########################################################################################
 # Problem 4b: "straight-line" heuristic for A*
+class ZeroHeuristic(Heuristic):
+    """Estimates the cost between locations as 0 distance."""
+    def __init__(self, endTag: str, cityMap: CityMap):
+        self.endTag = endTag
+        self.cityMap = cityMap
+
+    def evaluate(self, state: State) -> float:
+        return 0.0
 
 
 class StraightLineHeuristic(Heuristic):

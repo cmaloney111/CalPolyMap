@@ -25092,7 +25092,7 @@
             35.29882369967335,
             -120.65982903678906
         ],
-        "Orfalea_Family_and_ASI_Children's_Center": [
+        "Orfalea_Family_and_ASI_Childrens_Center": [
             35.29736404967323,
             -120.66278529950355
         ],
@@ -25292,7 +25292,7 @@
             35.29814764967328,
             -120.66252995469088
         ],
-        "MAT'L_Demo_Laboratory": [
+        "MATL_Demo_Laboratory": [
             35.29945594967339,
             -120.66259891522775
         ],
@@ -25540,7 +25540,7 @@
             35.30874689967412,
             -120.67074107594743
         ],
-        "Announcer's_Booth": [
+        "Announcers_Booth": [
             35.30936029967417,
             -120.67091966897028
         ],
@@ -25985,7 +25985,7 @@
         ],
         "358848887": [
             "label=358848887",
-            "amenity=place_of_worship",
+            "amenity=place of worship",
             "ele=78",
             "gnis:feature_id=1872418",
             "name=Family Christian Center",
@@ -25995,7 +25995,7 @@
             "label=358848925",
             "addr:city=San Luis Obispo",
             "addr:housenumber=1010",
-            "amenity=place_of_worship",
+            "amenity=place of worship",
             "denomination=lutheran",
             "ele=76",
             "gnis:feature_id=1872453",
@@ -26034,7 +26034,7 @@
             "addr:city=San Luis Obispo",
             "addr:postcode=93407",
             "addr:street=Grand",
-            "leisure=bowling_alley",
+            "amenity=bowling alley",
             "name=Cal Poly Mustang Lanes Bowling",
             "sport=bowling"
         ],
@@ -26047,7 +26047,7 @@
             "bench=yes",
             "bin=yes",
             "bus=yes",
-            "highway=bus_stop",
+            "amenity=bus stop",
             "lit=yes",
             "name=4A,4B,5A,5B,6a,6b,9,10,12x",
             "public_transport=platform",
@@ -26083,7 +26083,7 @@
         ],
         "993419706": [
             "label=993419706",
-            "amenity=post_office",
+            "amenity=post office",
             "name=Canyon Post"
         ],
         "993419727": [
@@ -26119,7 +26119,7 @@
         ],
         "994359298": [
             "label=994359298",
-            "amenity=parking_entrance"
+            "amenity=parking entrance"
         ],
         "994359356": [
             "label=994359356",
@@ -26133,7 +26133,7 @@
         ],
         "1318383125": [
             "label=1318383125",
-            "historic=memorial",
+            "amenity=memorial",
             "landmark=statue",
             "memorial=statue"
         ],
@@ -26867,7 +26867,7 @@
         ],
         "1474528994": [
             "label=1474528994",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=wall_loops",
             "capacity=20",
             "covered=no",
@@ -26970,7 +26970,7 @@
         ],
         "1542001431": [
             "label=1542001431",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "check_date=2022-10-30"
         ],
         "1542001449": [
@@ -26978,7 +26978,7 @@
             "addr:city=San Luis Obispo",
             "addr:postcode=93407",
             "addr:state=CA",
-            "amenity=fast_food",
+            "amenity=fast food (Health Snacks)",
             "delivery=no",
             "diet:healthy=yes",
             "drive_through=no",
@@ -27077,7 +27077,7 @@
             "addr:postcode=93405",
             "addr:state=CA",
             "addr:street=East Foothill Boulevard",
-            "amenity=fast_food",
+            "amenity=fast food (Dominos)",
             "brand=Domino's",
             "brand:wikidata=Q839466",
             "cuisine=pizza",
@@ -28987,205 +28987,205 @@
         ],
         "3362196884": [
             "label=3362196884",
-            "amenity=bicycle_repair_station"
+            "amenity=bicycle repair station"
         ],
         "3362203518": [
             "label=3362203518",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203519": [
             "label=3362203519",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203520": [
             "label=3362203520",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203522": [
             "label=3362203522",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203525": [
             "label=3362203525",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203550": [
             "label=3362203550",
-            "amenity=waste_disposal"
+            "amenity=waste disposal"
         ],
         "3362203570": [
             "label=3362203570",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203573": [
             "label=3362203573",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203577": [
             "label=3362203577",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203578": [
             "label=3362203578",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203591": [
             "label=3362203591",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203596": [
             "label=3362203596",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203602": [
             "label=3362203602",
-            "amenity=waste_disposal"
+            "amenity=waste disposal"
         ],
         "3362203618": [
             "label=3362203618",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203619": [
             "label=3362203619",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203630": [
             "label=3362203630",
-            "amenity=waste_disposal"
+            "amenity=waste disposal"
         ],
         "3362203634": [
             "label=3362203634",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203646": [
             "label=3362203646",
-            "amenity=waste_disposal"
+            "amenity=waste disposal"
         ],
         "3362203666": [
             "label=3362203666",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203667": [
             "label=3362203667",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203698": [
             "label=3362203698",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203701": [
             "label=3362203701",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203714": [
             "label=3362203714",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203721": [
             "label=3362203721",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203722": [
             "label=3362203722",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203733": [
             "label=3362203733",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203734": [
             "label=3362203734",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203752": [
             "label=3362203752",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203756": [
             "label=3362203756",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203759": [
             "label=3362203759",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203767": [
             "label=3362203767",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203769": [
             "label=3362203769",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203774": [
             "label=3362203774",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203776": [
             "label=3362203776",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203778": [
             "label=3362203778",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203779": [
             "label=3362203779",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203787": [
             "label=3362203787",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203789": [
             "label=3362203789",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203790": [
             "label=3362203790",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203794": [
             "label=3362203794",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203795": [
             "label=3362203795",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "3362203797": [
             "label=3362203797",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203804": [
             "label=3362203804",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362203805": [
             "label=3362203805",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "3362313533": [
             "label=3362313533",
@@ -29349,7 +29349,7 @@
             "addr:city=San Luis Obispo",
             "addr:postcode=93407",
             "addr:state=CA",
-            "amenity=fast_food",
+            "amenity=fast food (Subway)",
             "brand=Subway",
             "brand:wikidata=Q244457",
             "cuisine=sandwich",
@@ -29637,7 +29637,7 @@
         ],
         "3827741979": [
             "label=3827741979",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=wall_loops",
             "capacity=150",
             "covered=no"
@@ -29751,7 +29751,7 @@
             "addr:state=CA",
             "addr:street=East Foothill Boulevard",
             "addr:street:type=Boulevard",
-            "amenity=fast_food",
+            "amenity=fast food (Popeyes)",
             "brand=Popeyes",
             "brand:wikidata=Q1330910",
             "cuisine=chicken",
@@ -29772,7 +29772,7 @@
         ],
         "3955714630": [
             "label=3955714630",
-            "leisure=playground"
+            "amenity=playground"
         ],
         "3956025919": [
             "label=3956025919",
@@ -29853,7 +29853,7 @@
         ],
         "4454362341": [
             "label=4454362341",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "indoor=no",
             "operator=Cal Poly",
@@ -29861,7 +29861,7 @@
         ],
         "4454362342": [
             "label=4454362342",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "indoor=no",
             "operator=Cal Poly",
@@ -29869,7 +29869,7 @@
         ],
         "4462352795": [
             "label=4462352795",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "vending=parking_tickets"
         ],
         "4917490173": [
@@ -29928,7 +29928,7 @@
         ],
         "6223945612": [
             "label=6223945612",
-            "amenity=bicycle_repair_station",
+            "amenity=bicycle repair station",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -29966,7 +29966,7 @@
             "covered=no",
             "fee=no",
             "indoor=no",
-            "leisure=pitch",
+            "amenity=pitch",
             "lit=no",
             "sport=beachvolleyball",
             "surface=sand"
@@ -29978,31 +29978,31 @@
         ],
         "6633556203": [
             "label=6633556203",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6633556204": [
             "label=6633556204",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6633556205": [
             "label=6633556205",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6633556206": [
             "label=6633556206",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6633556207": [
             "label=6633556207",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6633556208": [
             "label=6633556208",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6633556209": [
             "label=6633556209",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6634235252": [
             "label=6634235252",
@@ -30031,23 +30031,23 @@
         ],
         "6634516053": [
             "label=6634516053",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=wall_loops",
             "covered=no"
         ],
         "6634516054": [
             "label=6634516054",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6634516055": [
             "label=6634516055",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=wall_loops",
             "covered=no"
         ],
         "6634516056": [
             "label=6634516056",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=wall_loops",
             "covered=no"
         ],
@@ -30132,7 +30132,7 @@
         ],
         "6635965683": [
             "label=6635965683",
-            "amenity=bicycle_repair_station",
+            "amenity=bicycle repair station",
             "fee=no",
             "opening_hours=24/7",
             "operator=California Polytechnic State University",
@@ -30145,7 +30145,7 @@
         ],
         "6636615893": [
             "label=6636615893",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "6636615941": [
             "label=6636615941",
@@ -30271,7 +30271,7 @@
         ],
         "8723030329": [
             "label=8723030329",
-            "historic=memorial",
+            "amenity=memorial",
             "material=metal",
             "memorial=plaque",
             "name=Cal Poly Amateur Radio Club Tower Commemoration"
@@ -30321,7 +30321,7 @@
         ],
         "8725878012": [
             "label=8725878012",
-            "historic=memorial"
+            "amenity=memorial"
         ],
         "8725881427": [
             "label=8725881427",
@@ -30331,7 +30331,7 @@
         ],
         "8725881445": [
             "label=8725881445",
-            "amenity=loading_dock"
+            "amenity=loading dock"
         ],
         "8725881447": [
             "label=8725881447",
@@ -30442,63 +30442,63 @@
         "8726909302": [
             "label=8726909302",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909303": [
             "label=8726909303",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909304": [
             "label=8726909304",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909305": [
             "label=8726909305",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909306": [
             "label=8726909306",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909307": [
             "label=8726909307",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909308": [
             "label=8726909308",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909309": [
             "label=8726909309",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909310": [
             "label=8726909310",
             "bench=yes",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909311": [
             "label=8726909311",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909312": [
             "label=8726909312",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909313": [
             "label=8726909313",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909314": [
             "label=8726909314",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "8726909315": [
             "label=8726909315",
@@ -30623,7 +30623,7 @@
         ],
         "8726923779": [
             "label=8726923779",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -30707,16 +30707,16 @@
         ],
         "8906216154": [
             "label=8906216154",
-            "amenity=post_depot"
+            "amenity=post depot"
         ],
         "8921093981": [
             "label=8921093981",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers"
         ],
         "8921093982": [
             "label=8921093982",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8921093984": [
             "label=8921093984",
@@ -30725,12 +30725,12 @@
         ],
         "8921093994": [
             "label=8921093994",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8921093995": [
             "label=8921093995",
             "access=yes",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "covered=yes",
             "fee=no",
@@ -30739,7 +30739,7 @@
         ],
         "8921093996": [
             "label=8921093996",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "covered=yes",
             "fee=yes",
@@ -30747,7 +30747,7 @@
         ],
         "8921093997": [
             "label=8921093997",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "covered=no",
             "fee=yes",
@@ -30757,7 +30757,7 @@
         "8921094002": [
             "label=8921094002",
             "access=permit",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "charge=75USD per year",
             "covered=yes",
@@ -30767,15 +30767,15 @@
         ],
         "8921115922": [
             "label=8921115922",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8921115925": [
             "label=8921115925",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8921115928": [
             "label=8921115928",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -30812,7 +30812,7 @@
         ],
         "8923641768": [
             "label=8923641768",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -30820,7 +30820,7 @@
         ],
         "8923641803": [
             "label=8923641803",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8923656021": [
             "label=8923656021",
@@ -30829,7 +30829,7 @@
         ],
         "8924808257": [
             "label=8924808257",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers"
         ],
         "8924808282": [
@@ -30839,26 +30839,26 @@
         ],
         "8925187262": [
             "label=8925187262",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8925187283": [
             "label=8925187283",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8925227731": [
             "label=8925227731",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8925823390": [
             "label=8925823390",
             "access=customers",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers"
         ],
         "8925823391": [
             "label=8925823391",
             "access=customers",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "capacity=18",
             "covered=yes",
@@ -30868,11 +30868,11 @@
         ],
         "8925823392": [
             "label=8925823392",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "8925823393": [
             "label=8925823393",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -30880,12 +30880,12 @@
         ],
         "8925823396": [
             "label=8925823396",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers"
         ],
         "8925823397": [
             "label=8925823397",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -30902,7 +30902,7 @@
         ],
         "8927848821": [
             "label=8927848821",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=wall_loops",
             "capacity=192",
             "covered=no",
@@ -30912,7 +30912,7 @@
         ],
         "8927848828": [
             "label=8927848828",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -30948,14 +30948,14 @@
         ],
         "8927872018": [
             "label=8927872018",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "8927872019": [
             "label=8927872019",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -30963,28 +30963,28 @@
         ],
         "8927872020": [
             "label=8927872020",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no"
         ],
         "9169748761": [
             "label=9169748761",
-            "amenity=bicycle_repair_station",
+            "amenity=bicycle repair station",
             "description=Does not have gauge when pumping the tire. Right next to bike lockers and light pole so more difficult to use.",
             "fee=no",
             "service:bicycle:pump=yes"
         ],
         "9169748762": [
             "label=9169748762",
-            "leisure=picnic_table"
+            "amenity=picnic table"
         ],
         "9169748763": [
             "label=9169748763",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "vending=food;drinks"
         ],
         "9169748764": [
             "label=9169748764",
-            "amenity=bicycle_repair_station"
+            "amenity=bicycle repair station"
         ],
         "9170198809": [
             "label=9170198809",
@@ -31000,7 +31000,7 @@
         ],
         "9179012031": [
             "label=9179012031",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "9234210321": [
             "label=9234210321",
@@ -31012,14 +31012,14 @@
         "9423986155": [
             "label=9423986155",
             "fixme=Do not know precise location, but it is on Foothill",
-            "historic=memorial",
+            "amenity=memorial",
             "inscription=Kennedy Love",
             "material=bike",
             "memorial=ghost_bike"
         ],
         "9424033069": [
             "label=9424033069",
-            "amenity=social_facility",
+            "amenity=social facility",
             "name=Little Free Pantry",
             "social_facility=food_bank"
         ],
@@ -31046,7 +31046,7 @@
         ],
         "9661207938": [
             "label=9661207938",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "capacity=3",
             "covered=no",
             "fee=no",
@@ -31054,7 +31054,7 @@
         ],
         "9661207939": [
             "label=9661207939",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "waste=trash"
         ],
         "9661207940": [
@@ -31092,7 +31092,7 @@
         ],
         "9661207945": [
             "label=9661207945",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -31105,7 +31105,7 @@
         ],
         "9661207947": [
             "label=9661207947",
-            "amenity=waste_basket"
+            "amenity=waste basket"
         ],
         "9661207948": [
             "label=9661207948",
@@ -31129,14 +31129,14 @@
         ],
         "9661207952": [
             "label=9661207952",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "9661207953": [
             "label=9661207953",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "capacity=40",
             "covered=no",
             "fee=no",
@@ -31144,7 +31144,7 @@
         ],
         "9661207954": [
             "label=9661207954",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "waste=trash"
         ],
         "9661207955": [
@@ -31156,7 +31156,7 @@
         ],
         "9661207956": [
             "label=9661207956",
-            "amenity=post_box",
+            "amenity=post box",
             "colour=blue",
             "covered=no",
             "drive_through=no",
@@ -31175,7 +31175,7 @@
         ],
         "9661207958": [
             "label=9661207958",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "description=Mustang News",
             "fee=yes",
@@ -31188,14 +31188,14 @@
         ],
         "9661207960": [
             "label=9661207960",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "9661207961": [
             "label=9661207961",
-            "amenity=post_box",
+            "amenity=post box",
             "covered=no",
             "drive_through=no",
             "indoor=no",
@@ -31208,7 +31208,7 @@
         ],
         "9661207962": [
             "label=9661207962",
-            "amenity=post_box",
+            "amenity=post box",
             "brand=UPS",
             "brand:wikidata=Q155026",
             "covered=no",
@@ -31228,14 +31228,14 @@
         ],
         "9661207964": [
             "label=9661207964",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "9661207965": [
             "label=9661207965",
-            "amenity=car_sharing",
+            "amenity=car  sharing",
             "lit=yes",
             "operator=Zipcar",
             "operator:wikidata=Q1069924",
@@ -31249,14 +31249,14 @@
         ],
         "9661207967": [
             "label=9661207967",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "9661207968": [
             "label=9661207968",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -31264,7 +31264,7 @@
         ],
         "9661207969": [
             "label=9661207969",
-            "amenity=car_sharing",
+            "amenity=car  sharing",
             "lit=yes",
             "operator=Zipcar",
             "operator:wikidata=Q1069924",
@@ -31279,12 +31279,12 @@
         ],
         "9661207971": [
             "label=9661207971",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "indoor=no"
         ],
         "9661207972": [
             "label=9661207972",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "description=Mustang News",
             "fee=no",
             "indoor=no",
@@ -31305,7 +31305,7 @@
         ],
         "9661207975": [
             "label=9661207975",
-            "amenity=car_sharing",
+            "amenity=car  sharing",
             "operator=Zipcar",
             "operator:wikidata=Q1069924",
             "operator:wikipedia=en:Zipcar",
@@ -31313,7 +31313,7 @@
         ],
         "9661207976": [
             "label=9661207976",
-            "amenity=drinking_water",
+            "amenity=drinking fountain",
             "bottle=yes",
             "covered=no",
             "fee=no",
@@ -31328,7 +31328,7 @@
         ],
         "9661207978": [
             "label=9661207978",
-            "amenity=bicycle_repair_station",
+            "amenity=bicycle repair station",
             "colour=green",
             "covered=no",
             "fee=no",
@@ -31343,14 +31343,14 @@
         ],
         "9661207980": [
             "label=9661207980",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "indoor=no",
             "vending=parking_tickets"
         ],
         "9661207981": [
             "label=9661207981",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -31363,14 +31363,14 @@
         ],
         "9661207983": [
             "label=9661207983",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "indoor=no",
             "vending=parking_tickets"
         ],
         "9661207984": [
             "label=9661207984",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -31382,14 +31382,14 @@
         ],
         "9661207986": [
             "label=9661207986",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "9661207987": [
             "label=9661207987",
-            "amenity=waste_basket"
+            "amenity=waste basket"
         ],
         "9661207989": [
             "label=9661207989",
@@ -31424,11 +31424,11 @@
         ],
         "9661207997": [
             "label=9661207997",
-            "amenity=waste_basket"
+            "amenity=waste basket"
         ],
         "9661207998": [
             "label=9661207998",
-            "amenity=waste_basket"
+            "amenity=waste basket"
         ],
         "9661207999": [
             "label=9661207999",
@@ -31442,7 +31442,7 @@
         ],
         "9661208001": [
             "label=9661208001",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -31450,7 +31450,7 @@
         ],
         "9661208002": [
             "label=9661208002",
-            "amenity=post_box",
+            "amenity=post box",
             "brand=UPS",
             "brand:wikidata=Q155026",
             "covered=no",
@@ -31469,7 +31469,7 @@
         ],
         "9661208004": [
             "label=9661208004",
-            "amenity=post_box",
+            "amenity=post box",
             "brand=UPS",
             "brand:wikidata=Q155026",
             "covered=no",
@@ -31483,7 +31483,7 @@
         ],
         "9661208005": [
             "label=9661208005",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -31512,7 +31512,7 @@
         "9662164658": [
             "label=9662164658",
             "access=yes",
-            "amenity=drinking_water",
+            "amenity=drinking fountain",
             "bottle=no",
             "covered=yes",
             "fee=no",
@@ -31538,7 +31538,7 @@
         ],
         "9662164661": [
             "label=9662164661",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "description=Mustang News",
             "fee=no",
@@ -31548,7 +31548,7 @@
         ],
         "9662164662": [
             "label=9662164662",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -31575,7 +31575,7 @@
         ],
         "9662164667": [
             "label=9662164667",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "description=Mustang News",
             "fee=no",
@@ -31590,7 +31590,7 @@
         ],
         "9662164669": [
             "label=9662164669",
-            "amenity=post_box",
+            "amenity=post box",
             "brand=UPS",
             "brand:wikidata=Q155026",
             "covered=no",
@@ -31636,7 +31636,7 @@
         ],
         "9662164676": [
             "label=9662164676",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -31679,7 +31679,7 @@
         ],
         "9662164684": [
             "label=9662164684",
-            "amenity=car_sharing",
+            "amenity=car  sharing",
             "lit=yes",
             "operator=Zipcar",
             "operator:wikidata=Q1069924",
@@ -31693,7 +31693,7 @@
         ],
         "9662164686": [
             "label=9662164686",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=yes",
             "indoor=no"
         ],
@@ -31706,7 +31706,7 @@
         ],
         "9662164688": [
             "label=9662164688",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=yes",
             "description=Mustang News",
             "fee=no",
@@ -31716,7 +31716,7 @@
         ],
         "9662164689": [
             "label=9662164689",
-            "amenity=car_sharing",
+            "amenity=car  sharing",
             "lit=yes",
             "operator=Zipcar",
             "operator:wikidata=Q1069924",
@@ -31740,7 +31740,7 @@
         ],
         "9662164693": [
             "label=9662164693",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "description=Mustang News",
             "fee=no",
@@ -31750,7 +31750,7 @@
         ],
         "9663572681": [
             "label=9663572681",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "bin=no",
             "covered=no",
             "fee=no",
@@ -31759,7 +31759,7 @@
         ],
         "9663572682": [
             "label=9663572682",
-            "amenity=drinking_water",
+            "amenity=drinking fountain",
             "bottle=no",
             "covered=no",
             "fee=no",
@@ -31769,7 +31769,7 @@
         ],
         "9663572683": [
             "label=9663572683",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -31782,7 +31782,7 @@
         ],
         "9663572685": [
             "label=9663572685",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -31795,13 +31795,13 @@
         ],
         "9663572687": [
             "label=9663572687",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
         "9663572688": [
             "label=9663572688",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "covered=yes",
             "fee=yes",
@@ -31813,7 +31813,7 @@
         ],
         "9663572689": [
             "label=9663572689",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
@@ -31861,12 +31861,12 @@
         "9663572696": [
             "label=9663572696",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "9663572697": [
             "label=9663572697",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "bicycle_parking=lockers",
             "covered=yes",
             "fee=yes",
@@ -31880,7 +31880,7 @@
         ],
         "9663572699": [
             "label=9663572699",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "description=Mustang News and New Times.",
             "fee=no",
@@ -31889,7 +31889,7 @@
         ],
         "9663572700": [
             "label=9663572700",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -31903,7 +31903,7 @@
         ],
         "9663572702": [
             "label=9663572702",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "covered=no",
             "description=Mustang News",
             "fee=no",
@@ -31919,14 +31919,14 @@
         ],
         "9667267324": [
             "label=9667267324",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no"
         ],
         "9667267325": [
             "label=9667267325",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -31938,7 +31938,7 @@
         ],
         "9668219954": [
             "label=9668219954",
-            "amenity=car_sharing",
+            "amenity=car  sharing",
             "lit=no",
             "operator=Zipcar",
             "operator:wikidata=Q1069924",
@@ -31983,7 +31983,7 @@
         ],
         "9668219960": [
             "label=9668219960",
-            "amenity=vending_machine",
+            "amenity=vending machine",
             "bin=no",
             "covered=no",
             "fee=no",
@@ -32000,7 +32000,7 @@
         ],
         "9668219962": [
             "label=9668219962",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -32044,7 +32044,7 @@
         ],
         "9668219968": [
             "label=9668219968",
-            "amenity=waste_basket",
+            "amenity=waste basket",
             "covered=no",
             "indoor=no"
         ],
@@ -32094,7 +32094,7 @@
         ],
         "9668219976": [
             "label=9668219976",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no",
             "fee=no",
             "indoor=no",
@@ -32111,13 +32111,13 @@
         "9668219978": [
             "label=9668219978",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "9668219979": [
             "label=9668219979",
             "bench=yes",
-            "leisure=picnic_table",
+            "amenity=picnic table",
             "lit=yes"
         ],
         "9668219980": [
@@ -32150,7 +32150,7 @@
         ],
         "9921260618": [
             "label=9921260618",
-            "amenity=parking_space",
+            "amenity=parking space",
             "capacity=9",
             "parking_space=disabled"
         ],
@@ -32271,7 +32271,7 @@
             "addr:state=CA",
             "addr:street=Grand Avenue",
             "alt_name=Jamba Juice",
-            "amenity=fast_food",
+            "amenity=fast food (Jamba)",
             "branch=Cal Poly Vista Grande",
             "brand=Jamba",
             "brand:wikidata=Q3088784",
@@ -32334,27 +32334,27 @@
         ],
         "10205291689": [
             "label=10205291689",
-            "amenity=bicycle_parking"
+            "amenity=bicycle parking"
         ],
         "10205291704": [
             "label=10205291704",
-            "amenity=post_depot",
+            "amenity=post depot",
             "name=Pacheco Post Package Center"
         ],
         "10205291713": [
             "label=10205291713",
-            "amenity=parking_space",
+            "amenity=parking space",
             "description=Next to Elevator",
             "parking_space=disabled"
         ],
         "10205291714": [
             "label=10205291714",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205291715": [
             "label=10205291715",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205351930": [
@@ -32381,7 +32381,7 @@
         ],
         "10205351967": [
             "label=10205351967",
-            "amenity=fast_food",
+            "amenity=fast food (Shake smart)",
             "cuisine=juice",
             "drive_through=no",
             "name=Shake Smart"
@@ -32466,54 +32466,54 @@
         ],
         "10205352023": [
             "label=10205352023",
-            "amenity=charging_station"
+            "amenity=charging station"
         ],
         "10205352024": [
             "label=10205352024",
-            "amenity=charging_station"
+            "amenity=charging station"
         ],
         "10205352025": [
             "label=10205352025",
-            "amenity=charging_station"
+            "amenity=charging station"
         ],
         "10205352026": [
             "label=10205352026",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205352027": [
             "label=10205352027",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205352028": [
             "label=10205352028",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205352029": [
             "label=10205352029",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205352030": [
             "label=10205352030",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205352031": [
             "label=10205352031",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10205352032": [
             "label=10205352032",
-            "amenity=bicycle_parking",
+            "amenity=bicycle parking",
             "covered=no"
         ],
         "10205352042": [
             "label=10205352042",
-            "amenity=fast_food",
+            "amenity=fast food (Subway)",
             "brand=Subway",
             "brand:wikidata=Q244457",
             "cuisine=sandwich",
@@ -32530,7 +32530,7 @@
             "addr:street=Grand Avenue",
             "addr:unit=171B",
             "alt_name=Einstein Brothers Bagels",
-            "amenity=fast_food",
+            "amenity=fast food (Einstein Bros. Bagels)",
             "branch=Cal Poly Tech",
             "brand=Einstein Bros. Bagels",
             "brand:wikidata=Q5349788",
@@ -32553,7 +32553,7 @@
             "addr:postcode=93407",
             "addr:state=CA",
             "addr:street=Grand Avenue",
-            "amenity=fast_food",
+            "amenity=fast food (Taco Bell)",
             "brand=Taco Bell",
             "brand:wikidata=Q752941",
             "cuisine=tex-mex",
@@ -32563,7 +32563,7 @@
         ],
         "10205352104": [
             "label=10205352104",
-            "amenity=animal_shelter",
+            "amenity=animal shelter",
             "name=Cal Poly Cat Program"
         ],
         "10557771846": [
@@ -32604,7 +32604,7 @@
         ],
         "10587599606": [
             "label=10587599606",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587599607": [
@@ -32614,12 +32614,12 @@
         ],
         "10587599703": [
             "label=10587599703",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587599704": [
             "label=10587599704",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587634057": [
@@ -32688,42 +32688,42 @@
         ],
         "10587641405": [
             "label=10587641405",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641406": [
             "label=10587641406",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641407": [
             "label=10587641407",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641408": [
             "label=10587641408",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641409": [
             "label=10587641409",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641410": [
             "label=10587641410",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641411": [
             "label=10587641411",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587641412": [
             "label=10587641412",
-            "amenity=parking_space",
+            "amenity=parking space",
             "parking_space=disabled"
         ],
         "10587646238": [
@@ -32866,7 +32866,7 @@
         ],
         "11251890564": [
             "label=11251890564",
-            "historic=monument",
+            "amenity=monument",
             "name=The Bent of The Tau Beta Pi Association - CA Mu Chapter"
         ],
         "11359533620": [
@@ -32882,6 +32882,7 @@
         "11395233127": [
             "label=11395233127",
             "blind=no",
+            "amenity=playground",
             "playground=playhouse",
             "playground:theme=log_and_fedex_platform",
             "wheelchair=no"
@@ -47963,8 +47964,8 @@
             "building=Kinesiology"
         ],
         "Orfalea_Family_and_ASI_Children's_Center": [
-            "label=Orfalea_Family_and_ASI_Children's_Center",
-            "building=Orfalea Family and ASI Children's Center"
+            "label=Orfalea_Family_and_ASI_Childrens_Center",
+            "building=Orfalea Family and ASI Childrens Center"
         ],
         "Chase_Hall": [
             "label=Chase_Hall",
@@ -48162,9 +48163,9 @@
             "label=University_House",
             "building=University House"
         ],
-        "MAT'L_Demo_Laboratory": [
-            "label=MAT'L_Demo_Laboratory",
-            "building=MAT'L Demo Laboratory"
+        "MATL_Demo_Laboratory": [
+            "label=MATL_Demo_Laboratory",
+            "building=MATL Demo Laboratory"
         ],
         "Natatorium_Faculty_Office": [
             "label=Natatorium_Faculty_Office",
@@ -48332,7 +48333,7 @@
         ],
         "160B-_Baseball_Stadium,_Team_Room": [
             "label=160B-_Baseball_Stadium,_Team_Room",
-            "building=160B- Baseball Stadium, Team Room"
+            "building=160B- Baseball Stadium Team Room"
         ],
         "Rose_Float_Lab": [
             "label=Rose_Float_Lab",
@@ -48344,7 +48345,7 @@
         ],
         "161A-_Sports_Complex_Softball_Stadium,_Lockers": [
             "label=161A-_Sports_Complex_Softball_Stadium,_Lockers",
-            "building=161A- Sports Complex Softball Stadium, Lockers"
+            "building=161A- Sports Complex Softball Stadium Lockers"
         ],
         "50K-_Comunications_Services_Storage": [
             "label=50K-_Comunications_Services_Storage",
@@ -48410,9 +48411,9 @@
             "label=Cal_Poly_Rodeo_Office",
             "building=Cal Poly Rodeo Office"
         ],
-        "Announcer's_Booth": [
-            "label=Announcer's_Booth",
-            "building=Announcer's Booth"
+        "Announcers_Booth": [
+            "label=Announcers_Booth",
+            "building=Announcers Booth"
         ],
         "Livestock_Pens": [
             "label=Livestock_Pens",
@@ -60561,11 +60562,11 @@
             "8066627554": 6.248622169966399,
             "8066627552": 3.0126148089776352
         },
-        "MAT'L_Demo_Laboratory": {
+        "MATL_Demo_Laboratory": {
             "1474827958": 17.45701161078435
         },
         "1474827958": {
-            "MAT'L_Demo_Laboratory": 17.45701161078435,
+            "MATL_Demo_Laboratory": 17.45701161078435,
             "994359335": 13.470154602983536,
             "1474827967": 84.17165247961519
         },
@@ -60609,7 +60610,7 @@
         },
         "3273799300": {
             "3273799299": 20.52627547442116,
-            "Announcer's_Booth": 39.804578747152846,
+            "Announcers_Booth": 39.804578747152846,
             "3273799296": 77.69133922505576
         },
         "91630956": {
@@ -63184,9 +63185,9 @@
             "91526609": 78.07188149990134
         },
         "10153122201": {
-            "Announcer's_Booth": 17.84464861526452
+            "Announcers_Booth": 17.84464861526452
         },
-        "Announcer's_Booth": {
+        "Announcers_Booth": {
             "10153122201": 17.84464861526452,
             "3273799300": 39.804578747152846,
             "10153122204": 9.142654299015833
@@ -63926,7 +63927,7 @@
         },
         "10153122204": {
             "Livestock_Pens": 12.06758891238425,
-            "Announcer's_Booth": 9.142654299015833
+            "Announcers_Booth": 9.142654299015833
         },
         "1467784528": {
             "2262090155": 13.603642945312231
@@ -68354,9 +68355,9 @@
             "8925227718": 2.2675804725804602
         },
         "3955714630": {
-            "Orfalea_Family_and_ASI_Children's_Center": 26.354083592396318
+            "Orfalea_Family_and_ASI_Childrens_Center": 26.354083592396318
         },
-        "Orfalea_Family_and_ASI_Children's_Center": {
+        "Orfalea_Family_and_ASI_Childrens_Center": {
             "3955714630": 26.354083592396318,
             "6634263912": 26.565671290593496
         },
@@ -68829,7 +68830,7 @@
         "6634263912": {
             "2464394043": 24.4684042318475,
             "6634263929": 11.020217085770543,
-            "Orfalea_Family_and_ASI_Children's_Center": 26.565671290593496
+            "Orfalea_Family_and_ASI_Childrens_Center": 26.565671290593496
         },
         "2464394043": {
             "6634263912": 24.4684042318475,

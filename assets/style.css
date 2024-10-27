@@ -1,0 +1,37 @@
+@media screen and (max-width: 1159px) {
+    .input-wrapper {
+        width: 35vw !important;
+    }
+    #add-poi-modal {
+        margin-left: auto !important;  /* Override margin-left */
+        margin-right: auto !important;
+        justify-content: center !important;  /* Center the POI section */
+    }
+}
+
+@media screen and (max-width: 980px) {
+    #poi-inputs {
+        flex-direction: column !important;  /* Stack Name, Lat, Lon inputs vertically */
+        justify-content: center !important;  /* Center the inputs */
+        align-items: center !important;
+        gap: 10px !important;  /* Add spacing between stacked inputs */
+    }
+    .input-wrapper {
+        width: 100vw !important;
+    }
+    #add-poi-modal {
+        width: 100% !important;
+    }
+    #poi-color {
+        margin-top: 300px !important;
+    }
+}
+
+.input-wrapper {
+    width: 45vw;
+}
+
+
+.color-picker {
+    margin-top: 0px
+}

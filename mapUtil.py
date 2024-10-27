@@ -7,6 +7,7 @@ import osmium
 import requests
 from requests.structures import CaseInsensitiveDict
 from osmium import osm
+from building_util import buildings_set, amenities_set
 
 # Constants
 RADIUS_EARTH = 6371000  # Radius of earth in meters (~ equivalent to 3956 miles).
@@ -172,7 +173,20 @@ def locationFromTag(tag: str, cityMap: CityMap) -> Optional[str]:
     possibleLocations = sorted(
         [location for location, tags in cityMap.tags.items() if tag in tags]
     )
-    return possibleLocations[0] if len(possibleLocations) > 0 else None
+    if len(possibleLocations) > 0:
+        return possibleLocations[0]
+    return None
+
+def getTagName(tag_orig: str) -> str:
+    from visualization import poi_set
+    if tag_orig in buildings_set:
+        return 'building=' + tag_orig
+    elif tag_orig in amenities_set:
+        return 'amenity=' + tag_orig
+    elif tag_orig in poi_set:
+        return 'POI=' + tag_orig
+    else:
+        return 'landmark=' + tag_orig
 
 
 def computeDistance(geo1: GeoLocation, geo2: GeoLocation) -> float:

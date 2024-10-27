@@ -1,7 +1,7 @@
 import argparse
 from typing import List, Tuple
 import plotly.graph_objects as go
-from mapUtil import CityMap, addLandmarks, readMap, loadMap, locationFromTag, getTotalCost, addPOI
+from mapUtil import CityMap, addLandmarks, readMap, loadMap, locationFromTag, getTotalCost, addPOI, getTagName
 import util
 import copy
 import algorithms
@@ -9,16 +9,22 @@ from collections import defaultdict
 import numpy as np
 from dash import Dash, dcc, html, Input, Output, State
 from dash.dependencies import ALL
+import dash_bootstrap_components as dbc
 import dash
+import math
 import dash_daq as daq
 import time
+from building_util import expression_set, buildings_set, amenities_set
+
 
 args = None
 cityMap = None
 base_map = None
-y_level = 1.156
+y_level = 1.0
 all_paths_trace_idx = None
 path_trace_indices = []
+poi_set = set()
+options_list = sorted(expression_set)
 
 def interpolate_points(lat1, lon1, lat2, lon2, num_points=10) -> Tuple[List[float]]:
     """
@@ -148,63 +154,27 @@ def plotMap(
     # ---- Add updatemenus for the buttons ----
     global y_level
 
-    all_paths_button = dict(
-        active=-1,
-        type="buttons",
+    # Dropdown configuration
+    button_dropdown = dict(
         buttons=[
             dict(
-                label="Show all Walkable Paths",
+                label="Walkable Paths",
                 method="restyle",
                 args=[{"visible": True}, [all_paths_trace_idx]],
                 args2=[{"visible": "legendonly"}, [all_paths_trace_idx]],
             ),
-        ],
-        direction="left",
-        showactive=True,
-        x=0.575,  # Adjust position for each toggle
-        xanchor="left",
-        y=y_level,
-        yanchor="top",
-    )
-    landmarks_config = dict(
-        type="buttons",
-        buttons=[
             dict(
                 label="Landmarks",
                 method="restyle",
                 args=[{"visible": True}, trace_indices["Landmarks"]],
                 args2=[{"visible": "legendonly"}, trace_indices["Landmarks"]],
-            )
-        ],
-        direction="left",
-        showactive=True,
-        x=0.24,  # Position on the map
-        xanchor="left",
-        y=y_level,
-        yanchor="top",
-    )
-
-    amenities_config = dict(
-        type="buttons",
-        buttons=[
+            ),
             dict(
                 label="Amenities",
                 method="restyle",
                 args=[{"visible": True}, trace_indices["Amenities"]],
                 args2=[{"visible": "legendonly"}, trace_indices["Amenities"]],
             ),
-        ],
-        direction="left",
-        showactive=True,
-        x=0.36,  # Adjust position for each toggle
-        xanchor="left",
-        y=y_level,
-        yanchor="top",
-    )
-
-    buildings_config = dict(
-        type="buttons",
-        buttons=[
             dict(
                 label="Buildings",
                 method="restyle",
@@ -212,9 +182,9 @@ def plotMap(
                 args2=[{"visible": "legendonly"}, trace_indices["Buildings"]],
             ),
         ],
-        direction="left",
+        direction="down",
         showactive=True,
-        x=0.47,  # Adjust position for each toggle
+        x=0.01,
         xanchor="left",
         y=y_level,
         yanchor="top",
@@ -223,54 +193,27 @@ def plotMap(
     # Add your original map style dropdown buttons
     dropdown_map_styles = dict(
         buttons=[
-            {
-                "label": "Outdoors",
-                "method": "relayout",
-                "args": [{"mapbox.style": "outdoors"}],
-            },
-            {
-                "label": "Streets",
-                "method": "relayout",
-                "args": [{"mapbox.style": "streets"}],
-            },
-            {
-                "label": "Satellite",
-                "method": "relayout",
-                "args": [{"mapbox.style": "satellite"}],
-            },
-            {
-                "label": "Satellite Streets",
-                "method": "relayout",
-                "args": [{"mapbox.style": "satellite-streets"}],
-            },
+            {"label": "Outdoors", "method": "relayout", "args": [{"mapbox.style": "outdoors"}]},
+            {"label": "Streets", "method": "relayout", "args": [{"mapbox.style": "streets"}]},
+            {"label": "Satellite", "method": "relayout", "args": [{"mapbox.style": "satellite"}]},
+            {"label": "Satellite Streets", "method": "relayout", "args": [{"mapbox.style": "satellite-streets"}]},
             {"label": "Dark", "method": "relayout", "args": [{"mapbox.style": "dark"}]},
-            {
-                "label": "Light",
-                "method": "relayout",
-                "args": [{"mapbox.style": "light"}],
-            },
-            {
-                "label": "Basic",
-                "method": "relayout",
-                "args": [{"mapbox.style": "basic"}],
-            },
+            {"label": "Light", "method": "relayout", "args": [{"mapbox.style": "light"}]},
+            {"label": "Basic", "method": "relayout", "args": [{"mapbox.style": "basic"}]},
         ],
         direction="down",
         showactive=True,
-        x=0.797,
-        xanchor="left",
+        x=0.99, 
+        xanchor="right",
         y=y_level,
         yanchor="top",
     )
 
-    # Add dropdowns for category toggles
+    # Update layout with the dropdown menus
     fig.update_layout(
         updatemenus=[
-            all_paths_button,
-            landmarks_config,
-            amenities_config,
-            buildings_config,
-            dropdown_map_styles
+            button_dropdown,
+            dropdown_map_styles,
         ],
         mapbox=dict(
             accesstoken=mapbox_token,
@@ -283,39 +226,76 @@ def plotMap(
         ),
         title=mapName,
         margin={"r": 0, "t": 73, "l": 0, "b": 0},
-        legend={
-            "title": {"text": "Legend"},  # Custom title for the legend
-            "traceorder": "reversed",     # Show most recent traces on top
-            "uirevision": True            # Enable search functionality
-        },
+        showlegend=False,
     )
-
     return fig
 
 # Initialize Dash app
-app = Dash(__name__)
+app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 # Define the layout of the app
 app.layout = html.Div([
+    dcc.Location(id='url'),  # This will trigger the clientside callback
+    html.Div(id='viewport-container', style={'display': 'none'}),  # Container to hold viewport dimensions
+    
     html.H1("Shortest Path Finder", style={'text-align': 'center', 'color': '#333', 'margin-bottom': '20px'}),
 
-    # Start, End, and Add POI row
     html.Div([
-        # Start node input
-        html.Div([
-            html.Label("Start Location:", style={'margin-right': '5px', 'margin-bottom': '0'}),
-            dcc.Input(id='start-node', type='text', value='', style={
-                'margin-right': '20px', 'padding': '10px', 'border-radius': '5px', 'border': '1px solid #ccc', 'width': '180px'
-            }),
-        ], style={'margin-right': '20px'}),  # Wrapper div for spacing
-
-        # End node input
-        html.Div([
-            html.Label("End Location:", style={'margin-right': '5px', 'margin-bottom': '0'}),
-            dcc.Input(id='end-node', type='text', value='', style={
-                'margin-right': '50px', 'padding': '10px', 'border-radius': '5px', 'border': '1px solid #ccc', 'width': '180px'
-            }),
-        ], style={'margin-right': '20px'}),  # Wrapper div for spacing
+        html.Div(
+            [
+                html.Div(
+                    [
+                        html.Label("Start Location:", style={'margin-bottom': '5px', 'display': 'inline-block'}),
+                        dcc.Dropdown(
+                            id='start-node-dropdown',
+                            options=[],
+                            multi=False,
+                            style={
+                                'width': '100%',
+                                'border-radius': '5px',
+                                'outline': 'thick',
+                                'box-sizing': 'border-box'
+                            },
+                            placeholder="Select Start Location"
+                        ),
+                    ],
+                    style={
+                        'width': '100%',
+                        'margin-bottom': '20px',
+                        'box-sizing': 'border-box'
+                    }
+                ),
+                html.Div(
+                    [
+                        html.Label("End Location:", style={'margin-bottom': '5px', 'display': 'inline-block'}),
+                        dcc.Dropdown(
+                            id='end-node-dropdown',
+                            options=[],
+                            multi=False,
+                            style={
+                                'width': '100%',
+                                'border-radius': '5px',
+                                'outline': 'thick',
+                                'box-sizing': 'border-box'
+                            },
+                            placeholder="Select End Location"
+                        ),
+                    ],
+                    style={
+                        'width': '100%',
+                        'box-sizing': 'border-box'
+                    }
+                ),
+            ],
+            className='input-wrapper',
+            style={
+                'display': 'flex',
+                'flex-direction': 'column',     
+                'align-items': 'flex-start',                    
+                'padding': '10px',
+                'box-sizing': 'border-box'
+            }
+        ),
 
         # Add POI section
         html.Div(
@@ -330,14 +310,14 @@ app.layout = html.Div([
 
                     html.Label("Lat:", style={'margin-right': '10px'}),
                     dcc.Input(id='poi-lat', type='number', placeholder="Latitude", style={
-                        'width': '80px', 'margin-right': '10px', 'padding': '10px', 'border-radius': '5px', 'border': '1px solid #ccc'
+                        'width': '120px', 'margin-right': '10px', 'padding': '10px', 'border-radius': '5px', 'border': '1px solid #ccc'
                     }),
 
                     html.Label("Lon:", style={'margin-right': '10px'}),
                     dcc.Input(id='poi-lon', type='number', placeholder="Longitude", style={
-                        'width': '80px', 'padding': '10px', 'border-radius': '5px', 'border': '1px solid #ccc'
+                        'width': '120px', 'margin-right': '10px', 'padding': '10px', 'border-radius': '5px', 'border': '1px solid #ccc'
                     }),
-                ], style={'display': 'flex', 'justify-content': 'center', 'align-items': 'center', 'margin-bottom': '10px'}),  # Updated style
+                ], id='poi-inputs', style={'display': 'flex', 'justify-content': 'center', 'align-items': 'center', 'margin-bottom': '10px'}),
 
                 # Add POI button
                 html.Button('Add POI', id='add-poi-button', n_clicks=0, style={
@@ -354,11 +334,39 @@ app.layout = html.Div([
                     id='poi-color',
                     value=dict(hex='#119DFF'),
                     size=180,
-                    style={'display': 'None'}), 
+                    style={
+                        'display': 'none',  # Initially hidden
+                        'margin-right': '193px',
+                        'margin-top': '95px',
+                        'position': 'absolute',
+                        'z-index': '10000'
+                    }),
             ],
-            style={'display': 'flex', 'flex-direction': 'column', 'align-items': 'center', 'border': '1px solid #ccc', 'padding': '15px', 'border-radius': '5px'}
+            style={
+                'display': 'flex',
+                'flex-direction': 'column',
+                'align-items': 'center',
+                'border': '1px solid #ccc',
+                'margin-top': '20px',
+                'padding': '15px',
+                'border-radius': '5px',
+                'margin-left': 'auto'  # Stick to the right
+            }
         )
-    ], style={'display': 'flex', 'align-items': 'center', 'margin-bottom': '20px', 'padding': '15px', 'background-color': '#f9f9f9', 'border-radius': '5px', 'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)'}),
+    ], style={
+        'display': 'flex',
+        'align-items': 'center',
+        'justify-content': 'center',  # Ensure elements are spaced
+        'margin-bottom': '20px',
+        'padding': '15px',
+        'background-color': '#f9f9f9',
+        'border-radius': '5px',
+        'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
+        'flex-wrap': 'wrap',  # Allows wrapping when the page shrinks
+        'gap': '10px'
+    }),
+
+
 
     # Waypoints section with dynamic inputs
     html.Div(id='waypoint-inputs', children=[]),
@@ -384,8 +392,36 @@ app.layout = html.Div([
             'border-radius': '5px', 'cursor': 'pointer', 'font-size': '14px', 'transition': 'background-color 0.3s ease'
         }),
 
+        html.Div(
+            [
+                dcc.Dropdown(
+                    id='heuristic-dropdown',
+                    options=[
+                        {'label': 'None', 'value': 'None'},
+                        {'label': 'Straight Line', 'value': 'Straight Line'},
+                        {'label': 'No waypoints', 'value': 'No waypoints'}
+                    ],
+                    multi=False,
+                    style={
+                        'width': '100%',
+                        'border-radius': '5px',
+                    },
+                    placeholder="Select Heuristic"
+                ),
+            ],
+            style={
+                'margin-bottom': '20px',
+                'margin-top': '20px',
+                'padding-right': '10px',
+                'border-radius': '5px',
+                'width': '160px',
+                'box-sizing': 'border-box'
+            }
+        ),
+
         # Time display
         html.Div(id='time-display', style={
+            'padding': '10px',
             'font-size': '18px',
             'font-weight': 'bold',
             'color': '#28a745',
@@ -396,46 +432,112 @@ app.layout = html.Div([
         }),
     ]),
 
-    # Legend search bar
-    html.Div(
-        dcc.Input(
-            id="legend-search", 
-            type="text", 
-            placeholder="Search legend...", 
-            style={
-                'width': '170px',
-                'padding': '10px', 
-                'border-radius': '5px', 
-                'border': '1px solid #ccc', 
-                'position': 'absolute',  
-                'top': '30px',  
-                'right': '30px',  
-                'z-index': '1000', 
-                'background-color': 'white'
-            }
-        ),
-        style={'position': 'relative'}
-    ),
-
     # Graph to display the path
-    dcc.Graph(id='path-plot'),
+    dcc.Graph(id='path-plot', style={'height': '100vw', 'width': '80%', 'margin': '0 auto'}),
 
 ], style={'position': 'relative', 'padding': '20px', 'background-color': '#ffffff', 'border-radius': '10px', 'box-shadow': '0 4px 8px rgba(0, 0, 0, 0.1)'})
 
-# Callback to toggle the color picker visibility
+# Client-side callback to get viewport dimensions
+app.clientside_callback(
+    """
+    function(href) {
+        var w = window.innerWidth;
+        return w
+    }
+    """,
+    Output('viewport-container', 'children'),
+    Input('url', 'href')
+)
+
 @app.callback(
+    Output('start-node-dropdown', 'options'),
+    Input('start-node-dropdown', 'search_value')
+)
+def update_start_node_options(value):
+    final_options = []
+    if value:
+        filtered_options = [option for option in options_list if value.lower() in option.lower()]
+    else:
+        filtered_options = list(options_list)
+
+    for i, opt in enumerate(filtered_options):
+        final_options.append({'label': opt, 'value': opt})
+        final_options.append({'label': '——————————————————', 'value': opt + str(i) + opt, 'disabled': True})
+    return final_options
+
+@app.callback(
+    Output('end-node-dropdown', 'options'),
+    Input('end-node-dropdown', 'search_value')
+)
+def update_end_node_options(value):
+    final_options = []
+    if value:
+        filtered_options = [option for option in options_list if value.lower() in option.lower()]
+    else:
+        filtered_options = list(options_list)
+
+    for i, opt in enumerate(filtered_options):
+        final_options.append({'label': opt, 'value': opt})
+        final_options.append({'label': '——————————————————', 'value': opt + str(i) + opt, 'disabled': True})
+    return final_options
+
+
+@app.callback(
+    Output({'type': 'waypoint', 'index': ALL}, 'options'),
+    Input({'type': 'waypoint', 'index': ALL}, 'search_value')
+)
+def update_end_node_options(values):
+    options_for_all_waypoints = []
+    for value in values:
+        final_options = []
+        if value:
+            filtered_options = [option for option in options_list if value.lower() in option.lower()]
+        else:
+            filtered_options = list(options_list)
+
+        for i, opt in enumerate(filtered_options):
+            final_options.append({'label': opt, 'value': opt})
+            final_options.append({'label': '———————————————', 'value': opt + str(i) + opt, 'disabled': True})
+        options_for_all_waypoints.append(final_options)
+    return options_for_all_waypoints
+
+
+# Callback to toggle the color picker visibility based on button clicks and viewport dimensions
+@app.callback(
+    Output('path-plot', 'style'),
     Output('poi-color', 'style'),
     Input('color-button', 'n_clicks'),
+    Input('viewport-container', 'children'),
     State('poi-color', 'style')
 )
-def toggle_color_picker(n_clicks, current_style):
+def toggle_color_picker(n_clicks, width, current_style):
+    if width is None:
+        return {'height': '500px', 'width': '90%', 'margin': '0 auto'}, current_style
+    height = ((42.5 - 0.0075 * width) * width) / (1 + math.log(1 + (50 * width), 9)) / 10
     if n_clicks > 0:
-        # If clicked, toggle visibility by changing the display property
-        if current_style.get('display').lower() == 'none':
-            return {'margin-right': '193px', 'margin-top': '95px', 'display': 'inline-block', 'position': 'absolute', 'z-index': '10000'}
+        # Get width from dimensions
+        if width < 591:
+            margin_top = '145px'
+        elif width < 1343:
+            margin_top = '70px'
         else:
-            return {'display': 'none'}
-    return current_style
+            margin_top = '105px'
+        
+        # Toggle visibility
+        if current_style.get('display') == 'none':
+            return {'width': '90%', 'height': f'{height}px', 'margin': '0 auto'}, {
+                'margin-right': '193px',
+                'margin-top': margin_top,
+                'display': 'inline-block',
+                'position': 'absolute',
+                'z-index': '10000'
+            }
+        else:
+            return {'height': f'{height}px', 'width': '90%', 'margin': '0 auto'}, {'display': 'none'}
+        
+    return {'height': f'{height}px', 'width': '90%', 'margin': '0 auto'}, current_style
+
+
 
 @app.callback(
     Output('waypoint-inputs', 'children'),
@@ -457,17 +559,26 @@ def manage_waypoints(add_clicks, remove_clicks, remove_all_clicks, waypoint_inpu
     if triggered_id == 'add-waypoint-button':
         new_index = len(waypoint_inputs)
         new_input = html.Div([
-                        dcc.Input(
-                            id={'type': 'waypoint', 'index': new_index},
-                            type='text',
-                            placeholder=f'Waypoint {new_index + 1}',
+                        html.Div(
+                            dcc.Dropdown(
+                                id={'type': 'waypoint', 'index': new_index},
+                                options=[],
+                                className='waypoint-dropdown',
+                                multi=False,
+                                placeholder=f'Waypoint {new_index + 1}',
+                                style={
+                                    'border-radius': '5px', 
+                                    'border': '1px solid #ccc', 
+                                    'width': '100%', 
+                                    'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
+                                    'transition': 'border-color 0.3s ease',
+                                    'display': 'block',
+                                }
+                            ),
                             style={
-                                'padding': '10px', 
-                                'border-radius': '5px', 
-                                'border': '1px solid #ccc', 
-                                'width': '200px', 
-                                'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
-                                'transition': 'border-color 0.3s ease',
+                                'width': '100%',
+                                'box-sizing': 'border-box',
+                                'border-radius': '5px',
                             }
                         ),
                         html.Button(
@@ -497,7 +608,7 @@ def manage_waypoints(add_clicks, remove_clicks, remove_all_clicks, waypoint_inpu
                         'background-color': '#f9f9f9',
                         'box-shadow': '0 2px 4px rgba(0, 0, 0, 0.1)',
                         'transition': 'background-color 0.3s ease',
-                        'width': '30%',
+                        'width': '350px',
                     })
         waypoint_inputs.append(new_input)
 
@@ -512,9 +623,8 @@ def manage_waypoints(add_clicks, remove_clicks, remove_all_clicks, waypoint_inpu
         waypoint_inputs = [child for child in waypoint_inputs if f'\'index\': {idx_to_remove}' not in str(child)]
         for i, child in enumerate(waypoint_inputs):
             # Extract and update the placeholder and id of the input
-            input_component = child['props']['children'][0]
+            input_component = child['props']['children'][0]['props']['children']
             remove_button = child['props']['children'][1]
-
             # Update the placeholder and ids to reflect the new position
             input_component['props']['id'] = {'type': 'waypoint', 'index': i}
             input_component['props']['placeholder'] = f'Waypoint {i+1}'
@@ -528,20 +638,20 @@ def manage_waypoints(add_clicks, remove_clicks, remove_all_clicks, waypoint_inpu
      Output('time-display', 'children'),
      Output('time-display', 'style')],
     [Input('submit-button', 'n_clicks'),
-     Input('legend-search', 'value'),
      Input('time-display', 'style'),
      Input('time-display', 'children'),
      Input('add-poi-button', 'n_clicks'),
      Input('poi-color', 'value')],
-    State('start-node', 'value'),
+    State('start-node-dropdown', 'value'),
     State({'type': 'waypoint', 'index': ALL}, 'value'),
-    State('end-node', 'value'),
+    State('end-node-dropdown', 'value'),
     State('poi-name', 'value'), 
     State('poi-lat', 'value'), 
-    State('poi-lon', 'value')
+    State('poi-lon', 'value'),
+    State('heuristic-dropdown', 'value')
 )
-def update_output(n_clicks, search_value, current_style, current_val, poi_n_clicks, poi_color,
-                  start_node, waypoints, end_node, poi_name, lat, lon):
+def update_output(path_n_clicks, current_style, current_val, poi_n_clicks, poi_color,
+                  start_node, waypoints, end_node, poi_name, lat, lon, heuristic):
     ctx = dash.callback_context
 
     if ctx.triggered:
@@ -562,45 +672,45 @@ def update_output(n_clicks, search_value, current_style, current_val, poi_n_clic
                         visible=True
                     )
                 )
+                global poi_set
+                poi_set.add(poi_name)
+                options_list.append(poi_name)
                 addPOI(cityMap, poi_name, lat, lon)
                 return base_map, current_val, current_style
-            
-        if triggered_id == 'legend-search':
-            global all_paths_trace_idx, path_trace_indices
-            filtered_fig = copy.deepcopy(base_map)
-
-            # Filter traces based on search term
-            if filtered_fig:
-                for i, trace in enumerate(filtered_fig.data):
-                    if i == all_paths_trace_idx or not trace.visible or i in path_trace_indices:
-                        continue
-                    if search_value and search_value.lower() not in trace.name.lower():
-                        trace.visible = False
-                    else:
-                        trace.visible = True 
-
-            return filtered_fig, current_val, current_style
         
     global args
 
-    if n_clicks > 0:
+    if path_n_clicks > 0:
+        start_node = getTagName(start_node)
+        end_node = getTagName(end_node)
         if len(waypoints) == 0:
             problem = algorithms.ShortestPathProblem(start_node, end_node, cityMap)
+            if heuristic == 'Straight Line':
+                problem = algorithms.aStarReduction(problem, algorithms.StraightLineHeuristic(problem, cityMap))
+            elif heuristic == 'No waypoints':
+                problem = algorithms.aStarReduction(problem, algorithms.NoWaypointsHeuristic(end_node, cityMap))
             ucs = util.UniformCostSearch(verbose=0)
             start_time = time.time()
             ucs.solve(problem)
             end_time = time.time()
             
-            path = extractPath(problem.startLocation, ucs)
+            path = extractPath(problem.startState().location, ucs)
             parsedPath, parsedWaypoints = getPathDetails(path=path, waypointTags=[], cityMap=cityMap)
         else:
-            ucs = util.UniformCostSearch(verbose=0)
+            waypoints = [waypoint for waypoint in waypoints if waypoint != None]
+            print(waypoints)
+            waypoints = list(map(getTagName, waypoints))
+            ucs = util.UniformCostSearch(verbose=1)
             problem = algorithms.WaypointsShortestPathProblem(
                 start_node,
                 waypoints,
                 end_node,
                 cityMap,
             )
+            if heuristic == 'Straight Line':
+                problem = algorithms.aStarReduction(problem, algorithms.StraightLineHeuristic(problem, cityMap))
+            elif heuristic == 'No waypoints':
+                problem = algorithms.aStarReduction(problem, algorithms.NoWaypointsHeuristic(end_node, cityMap))
             start_time = time.time()
             ucs.solve(problem)
             end_time = time.time()
@@ -681,7 +791,7 @@ def update_output(n_clicks, search_value, current_style, current_val, poi_n_clic
                     lat=[lat],
                     lon=[lon],
                     mode="markers",
-                    marker=dict(size=10, color="White"),
+                    marker=dict(size=10, color="Black"),
                     name="Waypoint",
                     visible=True
                 )
@@ -701,16 +811,15 @@ def update_output(n_clicks, search_value, current_style, current_val, poi_n_clic
                     args2=[{"visible": "legendonly"}, path_trace_indices],
                 ),
             ],
-            direction="left",
+            direction="down",
             showactive=True,
-            x=0.794, 
-            xanchor="left",
+            x=0.5, 
+            xanchor="center",
             y=y_level,
             yanchor="top",
         )
 
-        base_map['layout']['updatemenus'][-1]['x'] = 0.907
-    
+
         base_map.update_layout(
             updatemenus=list(base_map['layout']['updatemenus']) + [path_button]
         )
@@ -719,7 +828,7 @@ def update_output(n_clicks, search_value, current_style, current_val, poi_n_clic
     else:
         base_map = plotMap(
                     cityMap=cityMap,
-                    mapName="Cal Poly Map",
+                    mapName="",
                     mapbox_token=args.mapbox_token,
                 ) 
         return base_map, "", current_style
