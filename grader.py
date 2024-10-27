@@ -1,4 +1,4 @@
-# To test your reduction, we'll define an admissible (but fairly unhelpful) heuristic
+
 class ZeroHeuristic(util.Heuristic):
     """Estimates the cost between locations as 0 distance."""
     def __init__(self, endTag: str, cityMap: CityMap):
@@ -22,14 +22,14 @@ class Test_4a(GradedTestCase):
         Run UCS on the A* Reduction of a ShortestPathProblem, specified by
             (startLocation, endTag).
         """
-        # We'll use the ZeroHeuristic to verify that the reduction works as expected
+        
         zeroHeuristic = ZeroHeuristic(endTag, cityMap)
 
-        # Define the baseProblem and corresponding reduction (using `zeroHeuristic`)
+        
         baseProblem = algorithms.ShortestPathProblem(startLocation, endTag, cityMap)
         aStarProblem = algorithms.aStarReduction(baseProblem, zeroHeuristic)
 
-        # Solve the reduction via a call to `ucs.solve` (similar to prior tests)
+        
         ucs = util.UniformCostSearch(verbose=0)
         ucs.solve(aStarProblem)
         path = extractPath(startLocation, ucs)
@@ -37,8 +37,8 @@ class Test_4a(GradedTestCase):
         if expectedCost is not None:
             self.assertEqual(expectedCost, getTotalCost(path, cityMap))
 
-        # BEGIN_HIDE
-        # END_HIDE
+        
+        
 
     @graded(timeout=1)
     def test_0(self):
@@ -76,7 +76,7 @@ class Test_4b(GradedTestCase):
 
     def setUp(self):
 
-        # Initialize a `StraightLineHeuristic` using `endTag3b` and the `stanfordMap`
+        
         self.endTag3b = makeTag("landmark", "gates")
 
         try:
@@ -100,8 +100,8 @@ class Test_4b(GradedTestCase):
         if expectedCost is not None:
             self.assertEqual(expectedCost, heuristicCost)
 
-        # BEGIN_HIDE
-        # END_HIDE
+        
+        
             
     @graded(timeout=1)
     def test_0(self):
@@ -134,7 +134,7 @@ class Test_4b(GradedTestCase):
         baseProblem = algorithms.ShortestPathProblem(startLocation, self.endTag3b, stanfordMap)
         aStarProblem = algorithms.aStarReduction(baseProblem, heuristic)
 
-        # Solve the reduction via a call to `ucs.solve` (similar to prior tests)
+        
         ucs = util.UniformCostSearch(verbose=0)
         ucs.solve(aStarProblem)
         path = extractPath(startLocation, ucs)
@@ -142,8 +142,8 @@ class Test_4b(GradedTestCase):
         if expectedCost is not None:
             self.assertEqual(expectedCost, getTotalCost(path, stanfordMap))
 
-        # BEGIN_HIDE
-        # END_HIDE
+        
+        
             
     @graded(timeout=2)
     def test_2(self):
@@ -208,8 +208,8 @@ class Test_4c(GradedTestCase):
         if expectedCost is not None:
             self.assertEqual(expectedCost, heuristicCost)
 
-        # BEGIN_HIDE
-        # END_HIDE
+        
+        
             
     @graded(timeout=2)
     def test_0(self):
@@ -243,7 +243,7 @@ class Test_4c(GradedTestCase):
         )
         aStarProblem = algorithms.aStarReduction(baseProblem, heuristic)
 
-        # Solve the reduction via a call to `ucs.solve` (similar to prior tests)
+        
         ucs = util.UniformCostSearch(verbose=0)
         ucs.solve(aStarProblem)
         path = extractPath(startLocation, ucs)
@@ -253,8 +253,8 @@ class Test_4c(GradedTestCase):
         if expectedCost is not None:
             self.assertEqual(expectedCost, getTotalCost(path, stanfordMap))
 
-        # BEGIN_HIDE
-        # END_HIDE
+        
+        
 
     @graded(timeout=2)
     def test_2(self):

@@ -1,7 +1,7 @@
 import subprocess
 import time
 
-import psutil  # Install it using `pip install psutil`
+import psutil  
 
 
 def run_with_timeout(command, timeout):
@@ -10,13 +10,13 @@ def run_with_timeout(command, timeout):
     while process.poll() is None:
         time.sleep(1)
         if time.time() - start_time > timeout:
-            process.terminate()  # Terminate the process if it runs over the specified time
+            process.terminate()  
             process.wait()
             return None
     return process.returncode
 
 
-# Example usage:
+
 command = "python visualization.py"
 timeout_seconds = 50
 return_code = run_with_timeout(command, timeout_seconds)
