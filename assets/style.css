@@ -10,12 +10,6 @@
 }
 
 @media screen and (max-width: 980px) {
-    #poi-inputs {
-        flex-direction: column !important;  /* Stack Name, Lat, Lon inputs vertically */
-        justify-content: center !important;  /* Center the inputs */
-        align-items: center !important;
-        gap: 10px !important;  /* Add spacing between stacked inputs */
-    }
     .input-wrapper {
         width: 100vw !important;
     }
@@ -26,6 +20,21 @@
         margin-top: 300px !important;
     }
 }
+
+@media screen and (max-width: 610px) {
+    #poi-name, #poi-lat, #poi-lon {
+        width: 90% !important;
+    }
+    #poi-inputs {
+        flex-direction: column !important;  /* Stack Name, Lat, Lon inputs vertically */
+        justify-content: center !important;  /* Center the inputs */
+        align-items: center !important;
+        gap: 10px !important;  /* Add spacing between stacked inputs */
+    }
+}
+
+
+
 
 .input-wrapper {
     width: 45vw;

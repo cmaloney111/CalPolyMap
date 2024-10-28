@@ -3,10 +3,8 @@ buildings_set = {'Multi-Purpose Room', 'Pavilion', '48K- EHS Greenhouse', 'San L
 amenities_set = {'vending machine', 'animal shelter', 'bbq', 'fast food (Taco Bell)', 'clinic', 'bank', 'school', 'monument', 'loading dock', 'restaurant', 'bicycle repair station', 'theatre', 'club', 'waste basket', 'parking entrance', 'waste disposal', 'fast food (Einstein Bros. Bagels)', 'playground', 'parking space', 'place of worship', 'studio', 'post box', 'fast food (Dominos)', 'pitch', 'atm', 'marketplace', 'drinking fountain', 'fast food (Subway)', 'social facility', 'toilets', 'fast food (Jamba)', 'recycling', 'car  sharing', 'bus stop', 'memorial', 'bench', 'bowling alley', 'fast food (Health Snacks)', 'bicycle parking', 'post office', 'fast food (Shake smart)', 'post depot', 'shelter', 'picnic table', 'fast food (Popeyes)', 'telephone', 'cafe', 'charging station'}
 
 if __name__ == '__main__':
-        
     import re
 
-    # Initialize lists for buildings and amenities
     building_list = []
     amenity_list = []
 
