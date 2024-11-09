@@ -81,7 +81,7 @@ def getPathDetails(
         print(f"Location {location} tags:[{tagsStr}]; done:[{doneTagsStr}]")
     total_distance = getTotalCost(path, cityMap)
     print(f"Total distance: {total_distance}")
-    return path, list(doneWaypoints)
+    return path, list(doneWaypoints), total_distance
 
 def addLandmarks(cityMap: CityMap, landmarkPath: str, toleranceMeters: float = 250.0) -> None:
     with open(landmarkPath) as f:

@@ -101,7 +101,7 @@ def add_traces(fig, latitude, longitude, organized_map):
                     lat=[lat],
                     lon=[lon],
                     text=loc_id,
-                    name=f"{category}/{item_type}",
+                    name=f"{item_type}",
                     mode="markers",
                     marker=dict(size=8, color=colors[category]),
                     visible=True
