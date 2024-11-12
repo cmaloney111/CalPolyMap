@@ -1,6 +1,11 @@
 from dash import dcc, html
 import dash_daq as daq
 import dash_bootstrap_components as dbc
+import dash_vtk
+import pyvista as pv
+from plyfile import PlyData
+import open3d as o3d
+import json
 
 def create_layout():
     return html.Div([
@@ -65,7 +70,11 @@ def create_layout():
         
         # Graph to display the path
         dcc.Graph(id='path-plot', style={'height': '100vw', 'width': '80%', 'margin': '0 auto'}),
-        
+        html.Button('See 3D reconstruction', id='reconstruction', n_clicks=0, style={'margin' : '10px auto', 'display': 'none',
+            'background-color': '#007bff', 'color': 'white', 'padding': '10px 15px', 'border': 'none', 'margin-top': '10px',
+            'border-radius': '5px', 'cursor': 'pointer', 'font-size': '14px', 'transition': 'background-color 0.3s ease'
+        })
+
     ], style={'position': 'relative', 'padding': '20px', 'background-color': '#ffffff',
               'border-radius': '10px', 'box-shadow': '0 4px 8px rgba(0, 0, 0, 0.1)'})
 

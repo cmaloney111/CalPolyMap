@@ -10,12 +10,15 @@ from util.buildingUtil import expression_set
 from util.mapUtil import extractPath, getPathDetails
 from visualization import plotMap, smooth_path
 from itertools import chain, combinations
+import open3d as o3d
+import subprocess
 
 global cityMap
 base_map = None
 y_level = 1.0
 poi_set = set()
 options_list = sorted(expression_set)
+# cloud = o3d.io.read_point_cloud("output.ply")
 
 def generate_options(value):
     # Generate options list for dropdown based on value
@@ -29,7 +32,7 @@ def generate_options(value):
 def register_callbacks(app, currCityMap):
     global cityMap
     cityMap = currCityMap
-    
+
     # Client-side callback to get viewport dimensions
     app.clientside_callback(
         """
@@ -41,6 +44,18 @@ def register_callbacks(app, currCityMap):
         Output('viewport-container', 'children'),
         Input('url', 'href')
     )
+
+    # Callback to open Open3D viewer on button click
+    @app.callback(
+        Output("reconstruction", "n_clicks"),
+        Input("reconstruction", "n_clicks"),
+        prevent_initial_call=True
+    )
+    def visualize_point_cloud(n_clicks):
+        # Run the point cloud visualization as a subprocess
+        subprocess.Popen(["python", "3d_rec_vis.py"])
+        return 0  # Reset click count if needed
+
 
     @app.callback(
         Output('start-node-dropdown', 'options'),
@@ -223,7 +238,8 @@ def register_callbacks(app, currCityMap):
         Output('time-display', 'children'),
         Output('time-display', 'style'),
         Output('alert-message', 'is_open'),
-        Output('alert-message', 'children')],
+        Output('alert-message', 'children'),
+        Output('reconstruction', 'style')],
         [Input('submit-button', 'n_clicks'),
         Input('time-display', 'style'),
         Input('time-display', 'children'),
@@ -239,10 +255,16 @@ def register_callbacks(app, currCityMap):
         State('poi-name', 'value'), 
         State('poi-lat', 'value'), 
         State('poi-lon', 'value'),
-        State('heuristic-dropdown', 'value')
+        State('heuristic-dropdown', 'value'),
+        State('reconstruction', 'style')
     )
     def update_output(path_n_clicks, current_style, current_val, poi_n_clicks, poi_color,
-                    start_node, waypoints, waypoint_soft_list, waypoints_time, walking_speed, total_time, end_node, poi_name, lat, lon, heuristic):
+                    start_node, waypoints, waypoint_soft_list, waypoints_time, walking_speed, 
+                    total_time, end_node, poi_name, lat, lon, heuristic, rec_style):
+        print(waypoints)
+        show_exp_rec = False
+        if start_node == 'vending machine' and end_node == 'bicycle parking' and waypoints is not None and len(waypoints) == 0:
+            show_exp_rec = True
         ctx = callback_context
         alert_style = False
         alert_message = "Please provide a start location and end location."
@@ -272,12 +294,12 @@ def register_callbacks(app, currCityMap):
                     print(poi_name)
                     options_list.append(poi_name)
                     addPOI(cityMap, poi_name, lat, lon)
-                    return base_map, current_val, current_style, alert_style, alert_message
+                    return base_map, current_val, current_style, alert_style, alert_message, rec_style
 
         if path_n_clicks > 0:
             if start_node is None or end_node is None:
                 alert_style = True
-                return base_map, current_val, current_style, alert_style, alert_message
+                return base_map, current_val, current_style, alert_style, alert_message, rec_style
             else:
                 if walking_speed == None:
                     walking_speed = 1
@@ -301,7 +323,7 @@ def register_callbacks(app, currCityMap):
                     if total_distance > (total_time * 60) * walking_speed:
                         alert_message = f"Could not complete route with specified walking speed ({walking_speed} m/s) and specified trip time ({total_time} minutes)."
                         alert_style = True
-                        return base_map, current_val, current_style, alert_style, alert_message
+                        return base_map, current_val, current_style, alert_style, alert_message, rec_style
                 else:
                     waypoints_filtered = [
                         (waypoint, waypoints_time[i] or 0, waypoint_soft_list[i])
@@ -346,7 +368,7 @@ def register_callbacks(app, currCityMap):
                     if (total_distance / walking_speed) / 60 + sum(hard_waypoints_time) > total_time:
                         alert_message = f"Could not complete route with specified walking speed ({walking_speed} m/s) and specified trip time ({total_time} minutes)."
                         alert_style = True
-                        return base_map, current_val, current_style, alert_style, alert_message
+                        return base_map, current_val, current_style, alert_style, alert_message, rec_style
                     
 
                     if len(soft_waypoints) > 0:
@@ -390,7 +412,7 @@ def register_callbacks(app, currCityMap):
                             if (total_distance / walking_speed) / 60 + sum(hard_waypoints_time) > total_time:
                                 alert_message = f"Could not complete route with specified walking speed ({walking_speed} m/s) and specified trip time ({total_time} minutes)."
                                 alert_style = True
-                                return base_map, current_val, current_style, alert_style, alert_message
+                                return base_map, current_val, current_style, alert_style, alert_message, rec_style
                         if max_waypoints_visited == 0:
                             alert_message = f"No soft waypoints could be included within the constraints. Showing path only with hard waypoints."
                             alert_style = True
@@ -505,7 +527,8 @@ def register_callbacks(app, currCityMap):
                     updatemenus=list(base_map['layout']['updatemenus']) + [path_button]
                 )
 
-                return base_map, time_display, {**current_style, 'background-color': '#f0f0f0', 'box-shadow': '0 1px 3px rgba(0, 0, 0, 0.1)'}, alert_style, alert_message
+                rec_style = {**rec_style, 'display': 'block'} if show_exp_rec else rec_style
+                return base_map, time_display, {**current_style, 'background-color': '#f0f0f0', 'box-shadow': '0 1px 3px rgba(0, 0, 0, 0.1)'}, alert_style, alert_message, rec_style
             
         else:
             base_map = plotMap(
@@ -513,4 +536,4 @@ def register_callbacks(app, currCityMap):
                         mapName="",
                         mapbox_token="pk.eyJ1IjoiY21hbG9uZXkxMTEiLCJhIjoiY20xeDRhejcyMHJ5MDJtcWJmbXh2MmV5eSJ9.1JLW7GG-tuhjlKCJZt8PZg",
                     ) 
-            return base_map, "", current_style, alert_style, alert_message
+            return base_map, "", current_style, alert_style, alert_message, rec_style
