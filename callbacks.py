@@ -261,7 +261,7 @@ def register_callbacks(app, currCityMap):
     def update_output(path_n_clicks, current_style, current_val, poi_n_clicks, poi_color,
                     start_node, waypoints, waypoint_soft_list, waypoints_time, walking_speed, 
                     total_time, end_node, poi_name, lat, lon, heuristic, rec_style):
-        print(waypoints)
+        rec_style = {**rec_style, 'display': 'none'}
         show_exp_rec = False
         if start_node == 'vending machine' and end_node == 'bicycle parking' and waypoints is not None and len(waypoints) == 0:
             show_exp_rec = True
