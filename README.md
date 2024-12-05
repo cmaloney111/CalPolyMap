@@ -37,7 +37,7 @@ Once the application starts, it will be accessible via a web interface at http:/
 Open this URL in your web browser to interact with the application.
 
 ## Step 3: Handling the 3D Reconstruction File
-The file output.ply, which contains the 3D reconstruction data, is not included in this repository due to its large size. If you wish to run the full application, please contact me at cmalon04@calpoly.edu, and I will provide you with the file.
+The file output.ply, which contains the 3D reconstruction data, is not included in this repository due to its large size. Contact me separately if you would like this file
 
 # Troubleshooting
 Issue: The application doesn't start after running python app.py.
@@ -47,6 +47,3 @@ Solution: Ensure that the Conda environment is activated correctly and all depen
 Issue: Unable to access the web interface at http://127.0.0.1:8050.
 
 Solution: Ensure that no other applications are using port 8050. You can specify a different port by setting the port parameter in app.py.
-
-# Contact
-If you encounter any issues or have questions, feel free to make an issue or discussion post or contact me at cmalon04@calpoly.edu.
